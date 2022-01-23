@@ -1,10 +1,18 @@
 ---
 title: In Order Traversal Of a Binary Tree Without Recursion
-date: 2021-12-26
-tags: ['java', 'algorithms', 'data-structures', 'problem', 'interview-question', 'binary-tree']
+date: 2021-12-26T00:00:00.000Z
+tags:
+  - java
+  - algorithms
+  - data-structures
+  - problem
+  - interview-question
+  - binary-tree
 author: Buddha
 description: Algorithm and Solution for Iteratively traversing a binary tree in-order
 draft: true
+slug: order-traversal-binary-tree-recursion
+lastmod: '2022-01-23T04:08:31.815Z'
 ---
 
 <img src="/blog/assets/svgs/2021/12/in-order-traversal-new.svg" alt="Animation to visualise in order traversal of a binary tree"/>

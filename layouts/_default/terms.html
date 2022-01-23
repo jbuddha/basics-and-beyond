@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <div
+    class="archive {{ with .Site.Params.doNotLoadAnimations }}
+      .
+    {{ else }}
+      animated fadeInDown
+    {{ end }}"
+    >
+    <ul class="list-with-title" style="position: absolute; top: 50%; transform: translateY(-50%);">
+      {{ range .Data.Terms.Alphabetical }}
+          <li style="display: inline;"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

@@ -1,0 +1,16 @@
+<!-- Flickr Parameters in order "Caption"
+           "link to photo page"
+           "link to source image"
+           "width"
+           "height" 
+-->
+
+<figure class="wp-caption alignnone">
+    <a data-flickr-embed="false" data-header="false" data-footer="false" onclick='return false'
+      data-context="false"
+      href="{{ index .Params 1 }}"
+      title="{{ index .Params 0 }}">
+      <img src="{{ index .Params 2 }}" width="{{ index .Params 3 }}" height="{{ index .Params 4 }}" alt="{{ index .Params 0 }}" />
+      </a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+      <figcaption class="wp-caption-text">{{ index .Params 0 }}</figcaption>
+</figure>
