@@ -1,2 +1,3 @@
 contentratio = 0.8
 readMore = true
+customCss = ["css/notices.css"]
