@@ -1,4 +1,4 @@
-baseURL = 'http://controlspace.netlify.app/'
+baseURL = 'https://control-space.netlify.app/'
 languageCode = 'en-us'
 title = 'Ctrl+Space - The Intellisense Every Programmer Needs'
 theme = 'anatole'
