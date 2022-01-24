@@ -6,7 +6,7 @@ tags:
 author: Jyothi Prasad Buddha
 description: Shows a method of expiring items in browser localStorage
 thumbnail: 'https://live.staticflickr.com/65535/49959194511_65bced3703_z.jpg'
-lastmod: '2022-01-24T09:50:03.880Z'
+lastmod: '2022-01-24T21:25:27.227Z'
 ---
 All the modern browsers have multiple types of storage mechanisms for using in your web applications. You may have already heard of cookies which are small bits of information you can store and they will be automatically expired. However, cookies can only store small amounts of information. The other kind of storage is sessionStorage, where you can store big chunks of information. However all the data stored in this will be lost as soon as you close the browser tab.
 
@@ -24,7 +24,7 @@ The solution is to wrap localStorage API with a utility. Your application's logi
 
 The utility we are going to create can provide utility methods to save and load from localStorage. The save method will store the item along with the timestamp, where are load method should first check if the item has already expired before returning it. Here is the that does just that.
 
-```js {linenos=table}
+```js {hl_lines=["37-43"]}
 const EXPIRY_IN_HOURS = 6;
 
 /**
@@ -70,7 +70,7 @@ const hasExpired = (item) => {
 };
 ```
 
-In this snippet, we have one auxiliary method to help with detection of expiration. The method hasExpired will calculate the difference in hours. It uses the current timestamp and the and timestamp stored along with data to calculate the age. If the age of the item is more than the expire hours we set, we return true from this method. The load method invokes the hasExpired method to check if the item is expired and return null after deleting the item from localStorage.
+In this snippet, we have one auxiliary method to help with detection of expiration. The method hasExpired, which has been highlighted in the above code, will calculate the difference in hours. It uses the current timestamp and the and timestamp stored along with data to calculate the age. If the age of the item is more than the expire hours we set, we return true from this method. The load method invokes the hasExpired method to check if the item is expired and return null after deleting the item from localStorage.
 
 {{% notice warning %}}
 If the user happens to travel between timezones the expiry may not work appropriately, the solution is to use UTC timestamps all the time. Also, we only remove the items when user tries to access them so, if we store an item and never read it again, we may leave that item forever in localStorage. We can solve that as well but it is for a different post.

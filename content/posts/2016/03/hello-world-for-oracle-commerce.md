@@ -8,7 +8,7 @@ tags:
 author: Buddha
 description: This article helps you learn how to begin with creating new components in Oracle Commerce.
 thumbnail: 'https://i.stack.imgur.com/sWi9t.png'
-lastmod: '2022-01-24T09:50:09.109Z'
+lastmod: '2022-01-24T21:25:58.697Z'
 ---
 Oracle Commerce or ATG is an Ocean. There are so many concepts in Oracle Commerce (previously known as ATG), that makes coming up with Hello World program little difficult. 
 * Do you mean to create one JSP page and deploy it like commerce reference store? 
@@ -96,7 +96,7 @@ ATG-Class-Path: ./bin/
 ## Step 5: Build & Deploy
 Build the project and copy the project folder into ${DYNAMO_ROOT} and run the following command to generate an ear file of your project and deploy it in your jboss server. No need to generate any ear file if you are running it on Tomcat. Just start the respective server with the given module.
 
-```sh
+```sh {linenos=false}
 runAssembler.bat -jboss HelloWorld.ear -m EXP_HelloATGComponentWorld
 ```
 ## Step 6: Access the Component
@@ -111,7 +111,7 @@ Click on it to go to the component page to see the property we have created and 
 
 You can see the server log to find a line similar to this.
 
-```sh
+```sh {linenos=false}
 INFO  [stdout] /dyn/admin/nucleus//com/buddha/components/HelloWorldComponent Hello ATG Component!
 .....
 INFO  [stdout] /dyn/admin/nucleus//com/buddha/components/HelloWorldComponent Hello ATG Component! Stops now!

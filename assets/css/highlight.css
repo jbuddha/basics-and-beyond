@@ -1,8 +1,9 @@
 /* Removing gap between a title and its subsequent block in syntax highlighting when using Chroma */
 div.highlight[title],
-div.highlight[title] > pre
+div.highlight[title] > pre,
+div.highlight[title] pre
 {
-    margin-bottom: 0px;
+    margin: 0px;
     opacity: 0.8;
 }
 
@@ -11,6 +12,12 @@ div.highlight[title] + div.highlight,
 div.highlight[title] + div.highlight > pre
 {
     margin-top: 0;
+}
+
+/* Hiding the default line number in the title */
+div.highlight[title] pre code span
+{
+    font-size: 0;
 }
 
 /**
