@@ -1,0 +1,9 @@
+.tag-cloud {
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+.tag-cloud li {
+    display: inline;
+}

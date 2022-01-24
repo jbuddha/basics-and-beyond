@@ -6,9 +6,12 @@
       animated fadeInDown
     {{ end }}"
     >
-    <ul class="list-with-title" style="position: absolute; top: 50%; transform: translateY(-50%);">
+    <ul class="list-with-title tag-cloud">
       {{ range .Data.Terms.Alphabetical }}
-          <li style="display: inline;"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
+          {{ $minCount := mul .Count 10 }}
+          {{ $logValue := math.Log $minCount }}
+          {{ $size := mul $logValue 1 }}
+          <li> <a href="{{ .Page.Permalink }}" style="font-size: {{ $size }}em;"> {{ .Page.Title }} </a> </li>
       {{ end }}
     </ul>
   </div>
