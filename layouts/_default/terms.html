@@ -18,10 +18,9 @@
     >
     <ul class="list-with-title tag-cloud">
       {{ range .Data.Terms.Alphabetical }}
-          {{ $percentOfMax := div .Count $maxCount }}
-          {{ $size := mul $percentOfMax $maxFontSize }}
-          {{ $minSize := math.Max $size $minFontSize }}
-          <li><a href="{{ .Page.Permalink }}" style="font-size: {{ $minSize }}em;">{{ .Page.Title }}</a></li>
+          {{ $ratio := div .Count $maxCount }}
+          {{ $size := math.Max (mul $ratio $maxFontSize) $minFontSize }}
+          <li><a href="{{ .Page.Permalink }}" style="font-size: {{ $size }}em;">{{ .Page.Title }}</a></li>
       {{ end }}
     </ul>
   </div>

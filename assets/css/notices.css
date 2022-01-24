@@ -31,6 +31,7 @@ div.notices.info p {
 }
 div.notices.info p:first-child:after {
     content: 'Info';
+    margin-left: 1em;
 }
 div.notices.warning p {
     border-top: 30px solid rgba(217, 83, 79, 0.8);
@@ -38,6 +39,7 @@ div.notices.warning p {
 }
 div.notices.warning p:first-child:after {
     content: 'Warning';
+    margin-left: 1em;
 }
 div.notices.note p {
     border-top: 30px solid #6AB0DE;
@@ -45,6 +47,7 @@ div.notices.note p {
 }
 div.notices.note p:first-child:after {
     content: 'Note';
+    margin-left: 1em;
 }
 div.notices.tip p {
     border-top: 30px solid rgba(92, 184, 92, 0.8);
@@ -52,4 +55,5 @@ div.notices.tip p {
 }
 div.notices.tip p:first-child:after {
     content: 'Tip';
+    margin-left: 1em;
 }
