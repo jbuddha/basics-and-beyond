@@ -7,5 +7,9 @@
       "title": "content",
       "path": "[[workspace]]/content"
     }
-  ]
+  ],
+  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.content.wysiwyg": true,
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.preview.host": "http://localhost:1313"
 }
