@@ -1,12 +1,14 @@
 {{ define "main" }}
 
-  {{ $max := 0 }}
+  {{ $maxCount := 0 }}
+  {{ $maxFontSize := 7 }}
+  {{ $minFontSize := 1 }}
   {{ range .Data.Terms.Alphabetical }}
-    {{if gt .Count $max}} 
-      {{ $max = .Count }}
+    {{if gt .Count $maxCount}} 
+      {{ $maxCount = mul 1.0 .Count }}
     {{end}}
   {{ end }}
-  {{ $max = mul 1.0 $max }}
+  
   <div
     class="archive {{ with .Site.Params.doNotLoadAnimations }}
       .
@@ -16,10 +18,10 @@
     >
     <ul class="list-with-title tag-cloud">
       {{ range .Data.Terms.Alphabetical }}
-          {{ $percentOfMax := div .Count $max }}
-          {{ $size := mul $percentOfMax 10 }}
-          {{ $minSize := math.Max $size 1 }}
-          <li> <a href="{{ .Page.Permalink }}" style="font-size: {{ $minSize }}em; "> {{ .Page.Title }}</a></li>
+          {{ $percentOfMax := div .Count $maxCount }}
+          {{ $size := mul $percentOfMax $maxFontSize }}
+          {{ $minSize := math.Max $size $minFontSize }}
+          <li><a href="{{ .Page.Permalink }}" style="font-size: {{ $minSize }}em;">{{ .Page.Title }}</a></li>
       {{ end }}
     </ul>
   </div>
