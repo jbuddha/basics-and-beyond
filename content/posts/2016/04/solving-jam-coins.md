@@ -1,11 +1,18 @@
 ---
 title: Generating the Jam Coins
-date: 2016-04-12
-tags: ['problems', 'codejam', 'java', 'puzzle', 'competition', 'solution']
+date: 2016-04-12T00:00:00.000Z
+tags:
+    - problem
+    - codejam
+    - java
+    - puzzle
+    - competition
+    - solution
 author: Buddha
 description: I'm going to show you how to solve JamCoins problem of 2016 Google codejam for both small as well as large datasets within time limit.
-sourcecode: https://github.com/jbuddha/competitions/blob/master/codejam/src/year2016/JamCoins.java
+sourcecode: 'https://github.com/jbuddha/competitions/blob/master/codejam/src/year2016/JamCoins.java'
 sourcetype: g
+lastmod: '2022-01-24T08:52:12.302Z'
 ---
 
 Here is a moderate problem of CodeJam's qualification round of 2016. The Jam Coins. It is an interesting problem which gives a glimpse into another popular virtual currency, bit-coin mining. Here is the description of the problem. You need to generate jamcoins of either 16 digits for small dataset or 32 digits for large datasets. Jam Coins follow the given rules...
@@ -14,7 +21,7 @@ Here is a moderate problem of CodeJam's qualification round of 2016. The Jam Coi
 1. If that interpreted from base 2 to base 10, it should not be a prime number in any of them.
 
 For Small dataset, you need to generate 50 jam coins of 16 digits and for large dataset, you need to generate 500 jam coins of 32 digits following above rules.
-<!-- more -->
+<!--more-->
 Output should be the list of Jam Coins where each is followed by a divisor of that number in each base.
 
 Let us say that we want to test if `11001101` is a jam coin or not.
@@ -23,10 +30,6 @@ If we assume that the number is in base 2, it's decimal equivalent is 2^7+2^6+2^
 If we assume that the number is in base 3, it's decimal equivalent is 3^7+3^6+3^3+3^2+1 = 2953 => Prime Number => Hence not a jam coin
 
 Let us test `1010101`
-
-{% raw %}
-<div style="width: 50%;">
-{% endraw %}
 
 |Base|Decimal Equivalent|Divisior|
 |-|-|-|
@@ -39,10 +42,6 @@ Let us test `1010101`
 |8| 266305  |5|
 |9| 538084  |2|
 |10|1010101 |73|
-
-{% raw %}
-</div>
-{% endraw %}
 
 It is divisible by some or number in all bases from 2 to 10. Hence it is a Jam Coin. We need to generate such coins with given number of digits.
 
@@ -65,7 +64,10 @@ Case #1:
 ## My solution
 Let us begin with breaking the problem into manageable chunks before we try to solve it.
 
-{% codeblock Solution Pseudo Code  %}
+```md {title=true}
+Pseudo Code
+```
+```md {linenos=table}
 Generate a number with required number of digits
     - Convert it to decimal assuming it is base 2
     - Test if it is a prime number
@@ -77,7 +79,7 @@ Generate a number with required number of digits
 Find Divisors in each base
 Print the number
 Print all divisors
-{% endcodeblock %}
+```
 
 There are several complex problems inside the deceptively simple pseudocode
 
@@ -89,17 +91,18 @@ There are several complex problems inside the deceptively simple pseudocode
 
 Let us solve them one by one
 
-##### [1/5]Handling insanely large numbers
-It depends on the programming language of your choice. For this solution, I have chosen Java, which has java.math.BigInteger class that can store numbers and provides a very useful methods for prime number calculations. Example usage is as below.
-{% codeblock HelloWorldComponent.java lang:java  %}
+### Step 1: Handling insanely large numbers
+It depends on the programming language of your choice. For this solution, I have chosen Java, which has `java.math.BigInteger` class that can store numbers and provides a very useful methods for prime number calculations. Example usage is as below.
+
+```java
 BigInteger num = new BigInteger("101010110000011");
 num.nextProbablePrime();
 num.isProbablePrime(10);
 num = new BigInteger("100001",3);   // converts 100001 to base 10 from base 3
 num.toString(2);                    // converts the num to base 2 from base 10
-{% endcodeblock %}
+```
 
-##### [2/5]Generating combination of 1s and 0s that begin and end with 1
+### Step 2: Generating combination of 1s and 0s that begin and end with 1
 Following is the algorithm I followed.
 1. Generate a string of zeroes of size n-2, assuming n is the length required
 1. Append 1 before and after the string of zeroes
@@ -115,12 +118,11 @@ Following is the algorithm I followed.
           10
 ------------
 100000000101
-
 ```
 How do you add 10 in binary format? Just convert that base 2 number to base 10 and add 2 and convert it back to binary number, which leads us to the following question.
 
-##### [3/5]Convert the number to decimal from given base
-```
+### Step 3: Convert the number to decimal from given base
+```java
 BigInteger incrementInBinaryByTwo(BigInteger num)
 {
 	return new BigInteger(new BigInteger(num.toString(),2).add(ONE).add(ONE).toString(2));
@@ -128,11 +130,10 @@ BigInteger incrementInBinaryByTwo(BigInteger num)
 ```
 Converting from a decimal number to binary format is as simple as calling toString method with 2 as the parameter.
 
-##### [4/5]Testing if it is a prime number
-BigInteger class of Java provides a nice API to work with prime numbers
+### Step 4: Testing if it is a prime number
+BigInteger class of Java provides a nice API to work with prime numbers. The method `BigInteger.isProbablePrime()` will return `false` if it is definately not a prime and returns `true`, if the probablity for this number to be a prime number is less than 2^-100. Hence for our purpose of finding if it is not a prime number, this would serve the purpose.
 
-BigInteger.isProbablePrime() will return false if it is definately not a prime and returns true, if the probablity for this number to be a prime number is less than 2^-100. Hence for our purpose of finding it is not a prime number this would serve the purpose.
-```
+```java
 static boolean isComposite(BigInteger num) {
     for (int base = 2; base < 11; base++) {
         if (new BigInteger(num.toString(), base).isProbablePrime(10)) {
@@ -143,10 +144,10 @@ static boolean isComposite(BigInteger num) {
 }
 ```
 
-##### [5/5]Finding a divisor
+### Step 5: Finding a divisor
 BigInteger has nextProbablePrime method that returns a prime number after the given number. So, if we use it on a prime number, we can get the next prime number and so on. As we can now get all prime numbers one after the another, we can divide our number with each prime number and return the first divisor. However, going indefinately till all primes are verified is inefficient for this problem. There will be simpler jam coins to mine. So, we will test for first 10000 prime numbers. If it is not divisible by any of it, we ignore that number and continue with next number. Here is the code.
 
-```
+```java
 static BigInteger findSmallestFactor(BigInteger n) {
     BigInteger half = sqrt(n);
     BigInteger factor = new BigInteger("2");
@@ -165,7 +166,12 @@ static BigInteger findSmallestFactor(BigInteger n) {
 }
 ```
 
-{% codeblock JamCoins.java lang:java  %}
+## Final Code
+
+```java {title=true}
+JamCoins.java
+```
+```java {linenos=table}
 package year2016;
 
 import java.io.BufferedReader;
@@ -294,5 +300,4 @@ public class JamCoins {
         }
     }
 }
-
-{% endcodeblock %}
+```

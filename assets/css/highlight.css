@@ -1,0 +1,36 @@
+/* Removing gap between a title and its subsequent block in syntax highlighting when using Chroma */
+div.highlight[title],
+div.highlight[title] > pre
+{
+    margin-bottom: 0px;
+    opacity: 0.8;
+}
+
+/* Removing gap between a title and its subsequent block in syntax highlighting when using Chroma */
+div.highlight[title] + div.highlight,
+div.highlight[title] + div.highlight > pre
+{
+    margin-top: 0;
+}
+
+/**
+In order to give a title for a code block, you need to divide them to two parts as shown below. 
+                                 
+```md {title=true}                                         | --> This Block allows you to give title for the next code block
+Pseudo Code                                                | --> Preferably have md style or same language as next code block to match style of both blocks. 
+```                                                        | --> You must provide title attribute for this block.
+```plaintext {linenos=table}
+Generate a number with required number of digits
+    - Convert it to decimal assuming it is base 2
+    - Test if it is a prime number
+    - If it is a prime number, go to step 1 else continue
+    - Convert it to decimal assuming it is base 3
+    - Test if it is a prime number
+    - If it is a prime number, go to step 1 else continue
+    - .... repeat till you reach base 10
+Find Divisors in each base
+Print the number
+Print all divisors
+```
+
+*/
