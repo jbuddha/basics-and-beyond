@@ -108,7 +108,9 @@ function loadSearch() {
       keys: [
         'title',
         'permalink',
-        'description'
+        'description',
+        'tags',
+        'content'
         ]
     };
     fuse = new Fuse(data, options); // build the index from the json file
@@ -131,11 +133,19 @@ function executeSearch(term) {
   } else { // build our html 
     let matches = [];
     const matchSet = new Set()
-    for (i = 0; i < results.length && matches.length <= 5; i++) {
+
+    let maxResults = 5;
+    let showDesc = true;
+    if (results.length > 5) {
+      maxResults = 10;
+      showDesc = false;
+    }
+
+    for (i = 0; i < results.length && matches.length <= 10; i++) {
       let entry = results[i].item || results[i];
       if(!matchSet.has(entry.permalink)) {
         matchSet.add(entry.permalink);
-        searchitems = searchitems + '<li><a href="' + entry.permalink + '" tabindex="0">' + '<span class="title">' + entry.title +  '</span><br /> <span class="sc"><em>' + entry.description + '</em></a></li>';
+        searchitems = searchitems + '<li><a href="' + entry.permalink + '" tabindex="0">' + '<span class="title">' + entry.title + (showDesc ? '</span><br /> <span class="sc"><em>' + entry.description  + '</em>' : '</span>') + '</a></li>';
       }
     }
     resultsAvailable = true;
