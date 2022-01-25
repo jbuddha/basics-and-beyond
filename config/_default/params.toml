@@ -1,4 +1,4 @@
 contentratio = 0.8
 readMore = true
-customCss = ["css/notices.css", 'css/tagcloud.css', 'css/highlight.css']
+customCss = ["css/notices.css", 'css/tagcloud.css', 'css/highlight.css', 'css/search.css']
 enableMediumZoom = false

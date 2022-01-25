@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html
+  dir="{{ .Site.Language.LanguageDirection | default "ltr" }}"
+  lang="{{- site.Language.Lang -}}"
+  data-theme="{{- .Site.Params.displayMode -}}"
+>
+  {{- partial "head.html" . -}}
+  <body>
+    <header>{{ partial "navbar.html" . }}</header>
+    <div class="wrapper">
+      <aside>
+        {{- partial "sidebar.html" . -}}
+      </aside>
+      <main>
+        <div class="autopagerize_page_element">
+          <div class="content">
+            {{- block "main" . }}{{- end }}
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <!-- entire copied from themes/anatole/layouts/_default/baesof.html and added next 7 lines to show search bar -->
+    <div id="fastSearch">
+      <input id="searchInput" tabindex="0">
+      <ul id="searchResults">
+      </ul>
+    </div>
+    <script src="/js/fuse.js"></script> <!-- download and copy over fuse.js file from fusejs.io -->
+    <script src="/js/fastsearch.js"></script>
+    
+    {{- partial "footer.html" (dict "context" . "footerClassModifier" "base") -}}
+
+    {{- if (eq .Site.Params.simpleAnalytics.enable true) -}}
+      {{- partial "analytics/simpleanalytics.html" . -}}
+
+
+    {{- end -}}
+  </body>
+</html>
