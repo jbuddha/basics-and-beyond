@@ -102,7 +102,7 @@ function loadSearch() {
     var options = { // fuse.js options; check fuse.js website for details
       shouldSort: true,
       location: 0,
-      distance: 100,
+      distance: 1000,
       threshold: 0.4,
       minMatchCharLength: 2,
       useExtendedSearch: true,
