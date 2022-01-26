@@ -105,6 +105,8 @@ function loadSearch() {
       distance: 100,
       threshold: 0.4,
       minMatchCharLength: 2,
+      useExtendedSearch: true,
+      includeMatches: true,
       keys: [
         'title',
         'permalink',
