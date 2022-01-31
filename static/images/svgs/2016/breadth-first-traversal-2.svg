@@ -1,0 +1,233 @@
+<svg cache-id="ac18b1aee9594cfaa95e40735b144f17" id="ep9TnIArutF1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 480" shape-rendering="geometricPrecision"
+     text-rendering="geometricPrecision">
+    <style>
+        <![CDATA[#ep9TnIArutF20 {animation: ep9TnIArutF20_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF20_c_o { 0% {opacity: 1} 5.263158% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF24 {animation: ep9TnIArutF24_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF24_c_o { 0% {opacity: 1} 5.263158% {opacity: 1} 10.526316% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF28 {animation: ep9TnIArutF28_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF28_c_o { 0% {opacity: 1} 36.842105% {opacity: 1} 42.105263% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF32 {animation: ep9TnIArutF32_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF32_c_o { 0% {opacity: 1} 42.105263% {opacity: 1} 47.368421% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF36 {animation: ep9TnIArutF36_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF36_c_o { 0% {opacity: 1} 47.368421% {opacity: 1} 52.631579% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF40 {animation: ep9TnIArutF40_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF40_c_o { 0% {opacity: 1} 78.947368% {opacity: 1} 84.210526% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF44 {animation: ep9TnIArutF44_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF44_c_o { 0% {opacity: 1} 84.210526% {opacity: 1} 89.473684% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF48 {animation: ep9TnIArutF48_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF48_c_o { 0% {opacity: 1} 89.473684% {opacity: 1} 94.736842% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF52 {animation: ep9TnIArutF52_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF52_c_o { 0% {opacity: 1} 94.736842% {opacity: 1} 100% {opacity: 0.25}} #ep9TnIArutF56 {animation: ep9TnIArutF56_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF56_c_o { 0% {opacity: 1} 52.631579% {opacity: 1} 57.894737% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF60 {animation: ep9TnIArutF60_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF60_c_o { 0% {opacity: 1} 57.894737% {opacity: 1} 63.157895% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF64 {animation: ep9TnIArutF64_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF64_c_o { 0% {opacity: 1} 63.157895% {opacity: 1} 68.421053% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF68 {animation: ep9TnIArutF68_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF68_c_o { 0% {opacity: 1} 68.421053% {opacity: 1} 73.684211% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF72 {animation: ep9TnIArutF72_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF72_c_o { 0% {opacity: 1} 73.684211% {opacity: 1} 78.947368% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF76 {animation: ep9TnIArutF76_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF76_c_o { 0% {opacity: 1} 10.526316% {opacity: 1} 15.789474% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF80 {animation: ep9TnIArutF80_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF80_c_o { 0% {opacity: 1} 15.789474% {opacity: 1} 21.052632% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF84 {animation: ep9TnIArutF84_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF84_c_o { 0% {opacity: 1} 21.052632% {opacity: 1} 26.315789% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF88 {animation: ep9TnIArutF88_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF88_c_o { 0% {opacity: 1} 31.578947% {opacity: 1} 36.842105% {opacity: 0.25} 100% {opacity: 0.25}} #ep9TnIArutF92 {animation: ep9TnIArutF92_c_o 5700ms linear infinite normal forwards}@keyframes ep9TnIArutF92_c_o { 0% {opacity: 1} 26.315789% {opacity: 1} 31.578947% {opacity: 0.25} 100% {opacity: 0.25}}]]></style>
+    <line id="ep9TnIArutF2" x1="-26.218847" y1="-45.070422" x2="26.218847" y2="45.070422"
+          transform="matrix(0.466039 0 0 0.41827 467.551453 344.691231)" opacity="0.3" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF3" x1="23.835324" y1="-45.070428" x2="-23.835323" y2="45.070428"
+          transform="matrix(0.562191 0 0 0.418269 417.497283 344.691229)" opacity="0.3" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF4" x1="-20.479413" y1="-45.070422" x2="20.479413" y2="45.070422"
+          transform="matrix(0.466038 0 0 0.41827 228.225896 344.691231)" opacity="0.3" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF5" x1="21.235114" y1="-45.070424" x2="-21.235114" y2="45.070424"
+          transform="matrix(0.56219 0 0 0.418269 186.511369 344.691233)" opacity="0.3" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF6" x1="-18.645731" y1="-42.486448" x2="18.645731" y2="42.486448"
+          transform="matrix(0.462243 0 0 0.382889 573.087743 257.134353)" opacity="0.34" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF7" x1="25.893828" y1="-42.486456" x2="-25.893827" y2="42.486457"
+          transform="matrix(0.512501 0 0 0.382888 528.548184 257.134352)" opacity="0.34" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF8" x1="-23.835328" y1="-38.867822" x2="23.835329" y2="38.867822"
+          transform="matrix(0.328728 0 0 0.382889 417.497278 260.752979)" opacity="0.34" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF9" x1="17.334769" y1="-42.486448" x2="-17.334769" y2="42.486448"
+          transform="matrix(0.512499 0 0 0.382889 376.32718 257.134353)" opacity="0.34" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF10" x1="-23.18527" y1="-38.867826" x2="23.18527" y2="38.867826"
+          transform="matrix(0.328728 0 0 0.382889 283.369447 260.752983)" opacity="0.34" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF11" x1="26.218847" y1="-42.486448" x2="-26.218847" y2="42.486448"
+          transform="matrix(0.512501 0 0 0.382888 233.96533 257.134353)" opacity="0.34" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF12" x1="-25.243766" y1="-42.486448" x2="25.243766" y2="42.486448"
+          transform="matrix(0.328728 0 0 0.382889 125.947987 257.134353)" opacity="0.34" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF13" x1="26.218847" y1="-42.486453" x2="-26.218847" y2="42.486453"
+          transform="matrix(0.512501 0 0 0.382888 74.485374 257.134349)" opacity="0.34" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF14" x1="-39.003253" y1="-39.138676" x2="39.003254" y2="39.138676"
+          transform="matrix(0.445774 0 0 0.525287 515.438758 171.478875)" opacity="0.34" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF15" x1="41.386778" y1="-41.153851" x2="-41.386778" y2="41.153851"
+          transform="matrix(0.490101 0 0 0.548531 435.048727 173.494046)" opacity="0.34" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF16" x1="-41.386786" y1="-41.153849" x2="41.386786" y2="41.153849"
+          transform="matrix(0.491651 0 0 0.548531 218.797391 173.494046)" opacity="0.34" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF17" x1="38.353192" y1="-41.153849" x2="-38.353192" y2="41.153849"
+          transform="matrix(0.446421 0 0 0.548536 139.057413 173.494047)" opacity="0.34" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF18" x1="-78.217752" y1="-41.170096" x2="78.217752" y2="41.170097"
+          transform="matrix(0.664797 0 0 0.638871 398.217753 91.170099)" opacity="0.34" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <line id="ep9TnIArutF19" x1="71.294693" y1="-41.170098" x2="-71.294692" y2="41.170098"
+          transform="matrix(0.632247 0 0 0.588755 248.705308 91.1701)" opacity="0.34" fill="none"
+          stroke="rgb(63,87,135)" stroke-width="3"/>
+    <g id="ep9TnIArutF20" transform="matrix(1 0 0 1 20 0.000002)">
+        <ellipse id="ep9TnIArutF21" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF22" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF23" y="0" font-weight="400" stroke-width="0"><![CDATA[50]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF24" transform="matrix(1 0 0 1 -122.589395 82.340195)">
+        <ellipse id="ep9TnIArutF25" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF26" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF27" y="0" font-weight="400" stroke-width="0"><![CDATA[25]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF28" transform="matrix(1 0 0 1 -251.733473 249.620802)">
+        <ellipse id="ep9TnIArutF29" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF30" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF31" y="0" font-weight="400" stroke-width="0"><![CDATA[10]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF32" transform="matrix(1 0 0 1 -148.808237 249.620803)">
+        <ellipse id="ep9TnIArutF33" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF34" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF35" y="0" font-weight="400" stroke-width="0"><![CDATA[20]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF36" transform="matrix(1 0 0 1 -92.253517 249.620806)">
+        <ellipse id="ep9TnIArutF37" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF38" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF39" y="0" font-weight="400" stroke-width="0"><![CDATA[30]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF40" transform="matrix(1 0 0 1 -134.723745 339.761652)">
+        <ellipse id="ep9TnIArutF41" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF42" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF43" y="0" font-weight="400" stroke-width="0"><![CDATA[28]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF44" transform="matrix(1 0 0 1 -51.294691 339.761653)">
+        <ellipse id="ep9TnIArutF45" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF46" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF47" y="0" font-weight="400" stroke-width="0"><![CDATA[32]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF48" transform="matrix(1 0 0 1 93.661959 339.761653)">
+        <ellipse id="ep9TnIArutF49" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF50" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF51" y="0" font-weight="400" stroke-width="0"><![CDATA[62]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF52" transform="matrix(1 0 0 1 193.7703 339.761656)">
+        <ellipse id="ep9TnIArutF53" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF54" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF55" y="0" font-weight="400" stroke-width="0"><![CDATA[70]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF56" transform="matrix(1 0 0 1 6.554717 249.620806)">
+        <ellipse id="ep9TnIArutF57" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF58" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF59" y="0" font-weight="400" stroke-width="0"><![CDATA[45]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF60" transform="matrix(1 0 0 1 58.992411 249.620803)">
+        <ellipse id="ep9TnIArutF61" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF62" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF63" y="0" font-weight="400" stroke-width="0"><![CDATA[55]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF64" transform="matrix(1 0 0 1 141.332606 249.620803)">
+        <ellipse id="ep9TnIArutF65" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF66" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF67" y="0" font-weight="400" stroke-width="0"><![CDATA[65]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF68" transform="matrix(1 0 0 1 202.654357 249.620809)">
+        <ellipse id="ep9TnIArutF69" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF70" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF71" y="0" font-weight="400" stroke-width="0"><![CDATA[80]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF72" transform="matrix(1 0 0 1 299.306585 249.620809)">
+        <ellipse id="ep9TnIArutF73" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF74" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF75" y="0" font-weight="400" stroke-width="0"><![CDATA[95]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF76" transform="matrix(1 0 0 1 176.435505 82.340198)">
+        <ellipse id="ep9TnIArutF77" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF78" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF79" y="0" font-weight="400" stroke-width="0"><![CDATA[75]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF80" transform="matrix(1 0 0 1 -199.295779 164.647905)">
+        <ellipse id="ep9TnIArutF81" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF82" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF83" y="0" font-weight="400" stroke-width="0"><![CDATA[15]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF84" transform="matrix(1 0 0 1 -39.815823 164.647902)">
+        <ellipse id="ep9TnIArutF85" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF86" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF87" y="0" font-weight="400" stroke-width="0"><![CDATA[35]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF88" transform="matrix(1 0 0 1 254.442012 164.647899)">
+        <ellipse id="ep9TnIArutF89" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF90" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF91" y="0" font-weight="400" stroke-width="0"><![CDATA[90]]></tspan>
+        </text>
+    </g>
+    <g id="ep9TnIArutF92" transform="matrix(1 0 0 1 93.661949 164.647896)">
+        <ellipse id="ep9TnIArutF93" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)"
+                 fill="rgb(210,219,237)" stroke="none" stroke-width="0"/>
+        <text id="ep9TnIArutF94" dx="0" dy="0" font-family="&quot;ep9TnIArutF1:::Roboto&quot;" font-size="28"
+              font-weight="400" transform="matrix(1 0 0 1 284.276815 59.534129)" fill="rgb(0,0,0)" stroke="none"
+              stroke-width="0">
+            <tspan id="ep9TnIArutF95" y="0" font-weight="400" stroke-width="0"><![CDATA[60]]></tspan>
+        </text>
+    </g>
+    <style>
+        <![CDATA[@font-face {font-family: 'ep9TnIArutF1:::Roboto';font-style: normal;font-weight: 400;src: url(data:font/ttf;charset=utf-8;base64,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AAEAAAAKADoAhgAEREZMVAAaY3lybAAaZ3JlawAabGF0bgAaAAQAAAAA//8ABgAAAAEAAgADAAQABQAGZG5vbQBGZnJhYwA+bG51bQA4bnVtcgAycG51bQAsdG51bQAmAAAAAQABAAAAAQAAAAAAAQAFAAAAAQACAAAAAgADAAUAAAABAAQABgDeAKIAgABSADAADgABAAAAAQAIAAIAVgAKABkADgAMAA0AGgAbABwAHQAeAB8AAQAAAAEACAACADQACgARABAADwASABMAFAAVABYAFwAYAAYAAAABAAgAAwABABwAAQASAAAAAQAAAAQAAgABAAIACwAAAAIAAQAPABgAAAABAAAAAQAIAAIADgAEACgAKQAIAAoAAQAEAAgACgAgACEAAQAAAAEACAACAB4ADAAgACEACQADAAQABQAGAAcACAAKAAsAAgACAAMACAAIAAAACgAKAAEAIgArAAIAAQAAAAEACAACAB4ADAArACMAJAAlACYAJwAoACIAKQAqAAgACgACAAIAAgALAAAAIAAhAAoAALAALEuwCVBYsQEBjlm4Af+FsIQdsQkDX14tsAEsICBFaUSwAWAtsAIssAEqIS2wAywgRrADJUZSWCNZIIogiklkiiBGIGhhZLAEJUYgaGFkUlgjZYpZLyCwAFNYaSCwAFRYIbBAWRtpILAAVFghsEBlWVk6LbAELCBGsAQlRlJYI4pZIEYgamFksAQlRiBqYWRSWCOKWS/9LbAFLEsgsAMmUFhRWLCARBuwQERZGyEhIEWwwFBYsMBEGyFZWS2wBiwgIEVpRLABYCAgRX1pGESwAWAtsAcssAYqLbAILEsgsAMmU1iwQBuwAFmKiiCwAyZTWCMhsICKihuKI1kgsAMmU1gjIbDAioobiiNZILADJlNYIyG4AQCKihuKI1kgsAMmU1gjIbgBQIqKG4ojWSCwAyZTWLADJUW4AYBQWCMhuAGAIyEbsAMlRSMhIyFZGyFZRC2wCSxLU1hFRBshIVktsAossChFLbALLLApRS2wDCyxJwGIIIpTWLlAAAQAY7gIAIhUWLkAKAPocFkbsCNTWLAgiLgQAFRYuQAoA+hwWVlZLbANLLBAiLggAFpYsSkARBu5ACkD6ERZLQACAHP/7AQKBcQADQAbADsAsABFWLAKLxuxCh4+WbAARViwAy8bsQMSPlmwChCxEQGwCitYIdgb9FmwAxCxGAGwCitYIdgb9FkwMQEQAiMiAgM1EBIzMhITJzQmIyIGBxEUFjMyNjcECt7s6eAE3u3r3gO5hI+OggKJi4mFAwJt/rv+xAE1ATP3AUEBOP7T/sYN69fW3v7Y7OHU5AABAKoAAALZBbcABgA6ALAARViwBS8bsQUePlmwAEVYsAAvG7EAEj5ZsgQABRESObAEL7EDAbAKK1gh2Bv0WbICAwUREjkwMSEjEQU1JTMC2br+iwISHQTRiajHAAEAXQAABDMFxAAXAE8AsABFWLAQLxuxEB4+WbAARViwAC8bsQASPlmxFwGwCitYIdgb9FmwAtCyAxAXERI5sBAQsQkBsAorWCHYG/RZsBAQsAzQshUXEBESOTAxISE1ATY2NTQmIyIGFSM0JDMyFhUUAQEhBDP8RgH4cFWKc4qZuQED2cvs/u7+egLbhQIwf59VcpKdjMn41bHX/tf+WQABAF7/7AP5BcQAJgB7ALAARViwDS8bsQ0ePlmwAEVYsBkvG7EZEj5ZsgANGRESObAAL7LPAAFdsp8AAXGyLwABXbJfAAFysA0QsQYBsAorWCHYG/RZsA0QsAnQsAAQsSYBsAorWCHYG/RZshMmABESObAZELAc0LAZELEfAbAKK1gh2Bv0WTAxATM2NjUQIyIGFSM0NjMyFhUUBgcWFhUUBCAkNTMUFjMyNjU0JicjAYaLg5b/eI+5/cPO6ntqeIP/AP5m/v+6ln6GjpyTiwMyAoZyAQCJca3l2sJfsiwmsH/E5t62c4qMg3+IAgAAAgA1AAAEUAWwAAoADgBKALAARViwCS8bsQkePlmwAEVYsAQvG7EEEj5ZsgEJBBESObABL7ECAbAKK1gh2Bv0WbAG0LABELAL0LIIBgsREjmyDQkEERI5MDEBMxUjESMRITUBMwEhEQcDhsrKuv1pAozF/YEBxRYB6Zf+rgFSbQPx/DkCyigAAAEAmv/sBC0FsAAdAGQAsABFWLABLxuxAR4+WbAARViwDS8bsQ0SPlmwARCxBAGwCitYIdgb9FmyBw0BERI5sAcvsRoBsAorWCHYG/RZsgUHGhESObANELAR0LANELEUAbAKK1gh2Bv0WbAHELAd0DAxExMhFSEDNjMyEhUUAiMiJiczFhYzMjY1NCYjIgcHzkoC6v2zLGuIx+rz2sH0Ea8RkHaBk5+EeUUxAtoC1qv+cz/++eDh/v3WvX1/sJuSsTUoAAACAIT/7AQcBbEAFAAhAFEAsABFWLAALxuxAB4+WbAARViwDS8bsQ0SPlmwABCxAQGwCitYIdgb9FmyBw0AERI5sAcvsRUBsAorWCHYG/RZsA0QsRwBsAorWCHYG/RZMDEBFSMGBAc2MzISFRQCIyIANTUQACUDIgYHFRQWMzI2NTQmA08i2P8AFHPHvuP1ztH+/AFXAVPSX6Afonl9j5EFsZ0E+OGE/vTU4f7yAUH9RwGSAakF/XByVkS03LiVlrkAAAEATQAABCUFsAAGADMAsABFWLAFLxuxBR4+WbAARViwAS8bsQESPlmwBRCxAwGwCitYIdgb9FmyAAMFERI5MDEBASMBITUhBCX9pcICWfzsA9gFSPq4BRiYAAMAcP/sBA4FxAAXACEAKwBkALAARViwFS8bsRUePlmwAEVYsAkvG7EJEj5ZsicJFRESObAnL7LPJwFdsRoBsAorWCHYG/RZsgMaJxESObIPJxoREjmwCRCxHwGwCitYIdgb9FmwFRCxIgGwCitYIdgb9FkwMQEUBgcWFhUUBiMiJjU0NjcmJjU0NjMyFgM0JiIGFBYzMjYBIgYVFBYyNjQmA+xzYnKF/9DS/YFyYXDswcDtl5v6l5ODgpT+6m2Hhd6FigQ0baowMbx3veDhvHa+MTCqbLjY2PyhepqY+I6PBBqHdG+Jid6MAAIAZP//A/gFxAAXACQAWwCwAEVYsAsvG7ELHj5ZsABFWLATLxuxExI+WbIDEwsREjmwAy+yAAMLERI5sBMQsRQBsAorWCHYG/RZsAMQsRgBsAorWCHYG/RZsAsQsR8BsAorWCHYG/RZMDEBBgYjIiYmNTQ2NjMyEhEVEAAFIzUzNjYlMjY3NTQmIyIGFRQWAz46oWB+u2ZvzIjY+f6w/q0kJ+X2/u5dnSSeeXqUjwKARVR84YiS6nz+vf7pNv5X/nkFnATn+nJUSrbku5mVwQABAEICmwKrBbsAFgBWsggXGBESOQCwAEVYsA4vG7EOHj5ZsABFWLAALxuxABY+WbEWArAKK1gh2Bv0WbAC0LIDDhYREjmwDhCxCAKwCitYIdgb9FmwDhCwC9CyFBYOERI5MDEBITUBNjU0JiMiBhUjNDYgFhUUDwIhAqv9qQEsbUA8S0edpwEImmtUsAGPAptsARpmRTE9TDlylH9uaGtPkQABAD4CkAKaBbsAJgCMsiAnKBESOQCwAEVYsA4vG7EOHj5ZsABFWLAZLxuxGRY+WbIAGQ4REjmwAC+2bwB/AI8AA12yPwABcbYPAB8ALwADXbJfAAFysA4QsQcCsAorWCHYG/RZsgoOGRESObAAELEmBLAKK1gh2Bv0WbIUJgAREjmyHRkOERI5sBkQsSACsAorWCHYG/RZMDEBMzI2NTQmIyIGFSM0NjMyFhUUBgcWFRQGIyImNTMUFjMyNjU0JyMBCVRKSD9GOUudo3yJnEZClaqIhKaeT0NGSZxYBGY9MC06Mylie3loN1sZKY9qfX5rLTw8M3ECAAEAegKbAe8FsAAGAEGyAQcIERI5ALAARViwBS8bsQUePlmwAEVYsAAvG7EAFj5ZsgQABRESObAEL7EDArAKK1gh2Bv0WbICAwUREjkwMQEjEQc1JTMB753YAWMSApsCWTmAdQABAEIAAAKrAyAAFgBWsggXGBESOQCwAEVYsA4vG7EOGD5ZsABFWLAALxuxABI+WbEVArAKK1gh2Bv0WbAC0LIUFQ4REjmyAw4UERI5sA4QsQgCsAorWCHYG/RZsA4QsAvQMDEhITUBNjU0JiMiBhUjNDYgFhUUDwIhAqv9qQEsbUA8S0edpwEImmtUsAGPbAEaZkUxPUw5cpR/bmhrT5EAAQB6AAAB7wMVAAYANgCwAEVYsAUvG7EFGD5ZsABFWLABLxuxARI+WbIEBQEREjmwBC+xAwKwCitYIdgb9FmwAtAwMSEjEQc1JTMB753YAWMSAlk5gHUAAAIAUP/1Ap0DIAANABcASLIDGBkREjmwAxCwENAAsABFWLAKLxuxChg+WbAARViwAy8bsQMSPlmwChCxEAKwCitYIdgb9FmwAxCxFQKwCitYIdgb9FkwMQEUBiMiJic1NDYzMhYXJzQjIgcVFDMyNwKdmI2LnAGbi42YAp2KhQSLhAQBRaKurKCOo66snQfAtLPCtQABAD7/9QKaAyAAJgB0ALAARViwDi8bsQ4YPlmwAEVYsBkvG7EZEj5ZsgAZDhESOXywAC8YtoAAkACgAANdsA4QsQcCsAorWCHYG/RZsgoABxESObAAELEmArAKK1gh2Bv0WbIUJgAREjmwGRCxIAKwCitYIdgb9FmyHSYgERI5MDEBMzI2NTQmIyIGFSM0NjMyFhUUBgcWFRQGIyImNTMUFjMyNjU0JyMBCVRKSD9GOUudo3yJnEZClaqIhKaeT0NGSZxYAcs9MC06Mylie3loN1sZKY9qfX5rLTw8M3ECAAIANgAAArsDFQAKAA4ASgCwAEVYsAkvG7EJGD5ZsABFWLAELxuxBBI+WbIBCQQREjmwAS+xAgKwCitYIdgb9FmwBtCwARCwC9CyCAsGERI5sg0JBBESOTAxATMVIxUjNSEnATMBMxEHAlBra53+iQYBeaH+hN8RASuCqalmAgb+FgEhHAAAAQBb//UCpwMVABsAZACwAEVYsAEvG7EBGD5ZsABFWLANLxuxDRI+WbABELEECbAKK1gh2Bv0WbIHDQEREjmwBy+xGQKwCitYIdgb9FmyBQcZERI5sA0QsBHQsA0QsRMCsAorWCHYG/RZsAcQsBvQMDETEyEVIQc2MzIWFRQGIyImJzMWMzI2NTQmIyIHcDIB3v6jFkFKgI+ghnmnBpsKgUFITkpJOwGDAZKEqh2JeXyRfmVjS0Q+TSsAAgBW//UCqwMeABMAHwBRALAARViwAC8bsQAYPlmwAEVYsAwvG7EMEj5ZsAAQsQECsAorWCHYG/RZsgYMABESObAGL7EUArAKK1gh2Bv0WbAMELEbArAKK1gh2Bv0WTAxARUjBAc2MzIWFRQGIyImNTU0NjcDIgYHFRQWMzI2NCYCKBH+9BdIcnaHn4SLp97NfjNNEVM/PU5HAx6DAttNkXd0mqaXM9DkBf5uLCAiVFVPfEwAAQA6AAACpQMVAAYAMwCwAEVYsAUvG7EFGD5ZsABFWLACLxuxAhI+WbAFELEEArAKK1gh2Bv0WbIABQQREjkwMQEBIwEhNSECpf6jpgFd/jsCawK7/UUCk4IAAwBP//UCnwMgABMAHgAoAH0AsABFWLARLxuxERg+WbAARViwBi8bsQYSPlmyJAYRERI5sCQvtt8k7yT/JANdtg8kHyQvJANdsv8kAXG0DyQfJAJysRcCsAorWCHYG/RZsgIkFxESObIMFyQREjmwBhCxHQKwCitYIdgb9FmwERCxHwKwCitYIdgb9FkwMQEUBxYVFAYgJjU0NjcmNTQ2MzIWAzQmIyIGFRQWMjYDIgYVFBYyNjQmAot3i6D+8KBKQHeXfX6XiU4+P0tMfkyMNz8/cD9AAkN2NzuDanl5akJhGzd2Z3Z2/jo0Ojo0NTo6AfA1MC44OFw3AAIASf/5ApUDIAASAB4AXQCwAEVYsAgvG7EIGD5ZsABFWLAPLxuxDxI+WbICDwgREjmwAi+2DwIfAi8CA12wDxCxEAKwCitYIdgb9FmwAhCxEwKwCitYIdgb9FmwCBCxGQKwCitYIdgb9FkwMQEGIyImNTQ2MzIWFxUQBQc1MjYnMjc1NCYjIgYVFBYB9kVldo2jgYmcA/5zN5aEe14qTzw7TEoBQEGKfnmgpZQ9/mQUAX9inkc8U1BUQ0FOAP//AFACjQKdBbgDBwARAAACmAATALAARViwCi8bsQoePlmwENAwMQD//wA2ApgCuwWtAwcAEwAAApgAEwCwAEVYsAkvG7EJHj5ZsA3QMDEA//8AWwKNAqcFrQMHABQAAAKYABAAsABFWLABLxuxAR4+WTAx//8AVgKNAqsFtgMHABUAAAKYABMAsABFWLAALxuxAB4+WbAU0DAxAP//ADoCmAKlBa0DBwAWAAACmAAQALAARViwBS8bsQUePlkwMf//AE8CjQKfBbgDBwAXAAACmAAZALAARViwES8bsREePlmwF9CwERCwH9AwMQD//wBJApEClQW4AwcAGAAAApgAEwCwAEVYsAgvG7EIHj5ZsBnQMDEA//8Afv/sBBYFsQEGAAj6AAATALAARViwAC8bsQAePlmwFdAwMQD//wBw/+wEDgXEAQYACgAAABkAsABFWLAVLxuxFR4+WbAb0LAVELAi0DAxAAABADsAAAPSBbAABgAzALAARViwBS8bsQUePlmwAEVYsAEvG7EBEj5ZsAUQsQMBsAorWCHYG/RZsgADBRESOTAxAQEjASE1IQPS/b66AkD9JQOXBUj6uAUYmP//AFcAAAKGBbcABgADrQD//wBdAAAEMwXEAgYABAAA//8AXv/sA/kFxAIGAAUAAP//ADUAAARQBbACBgAGAAD//wCa/+wELQWwAgYABwAA//8AmP/sBDAFsQAGAAgUAP//AIT/7AQiBcQABgAKFAD//wBk//8D+AXEAAYACwAA//8Ah//sBB4FxAAGAAIUAAAA) format('truetype');}]]></style>
+</svg>

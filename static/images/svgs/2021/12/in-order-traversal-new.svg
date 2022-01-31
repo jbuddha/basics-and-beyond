@@ -1,0 +1,305 @@
+<svg id="in-order-traversal-algorithm-new"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 480" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <style><![CDATA[
+#bullet1 {
+    animation: bullet1_kf 27000ms linear infinite normal forwards
+}
+@keyframes bullet1_kf {
+    0% { opacity: 1 }
+    10% { opacity: 1 }
+    11% { opacity: 0 }
+    100% { opacity: 0 }
+}
+#bullet2 {
+    animation: bullet2_kf 27000ms linear infinite normal forwards
+}
+#g50 {
+    animation: g50_kf 27000ms linear infinite normal forwards
+}
+@keyframes g50_kf {
+    0% { filter: sepia(0%) }
+    1% { filter: sepia(0%) }
+    6% { filter: sepia(100%) }
+    20% { filter: sepia(100%) }
+    21% { filter: sepia(0%) }
+}
+@keyframes bullet2_kf {
+    0% { opacity: 0 }
+    10% { opacity: 0 }
+    11% { opacity: 1 }
+    30% { opacity: 1 }
+    31% { opacity: 0 }
+    100% { opacity: 0 }
+}
+#copy-of-50_to {
+    animation: copy-of-50_to__to 27000ms linear infinite normal forwards
+}
+@keyframes copy-of-50_to__to {
+     0% { transform: translate(364.072299px,138.160435px)  }
+     10% { transform: translate(364.072299px,138.160435px)  }
+     19% { transform: translate(151.138267px,441.132885px)  }
+     100% { transform: translate(151.138267px,441.132885px)  }
+}
+#copy-of-50_ts {
+    animation: copy-of-50_ts__ts 27000ms linear infinite normal forwards
+}
+@keyframes copy-of-50_ts__ts {
+     0% { transform: scale(1,1)  }
+     5% { transform: scale(1.5,1.5)  }
+     9% { transform: scale(1,1)  }
+     100% { transform: scale(1,1)  }
+}
+#copy-of-25_to {
+    animation: copy-of-25_to__to 27000ms linear infinite normal forwards
+}
+@keyframes copy-of-25_to__to {
+     0% { transform: translate(274.018122px,222.90425px)  }
+     46% { transform: translate(274.018122px,222.90425px)  }
+     67% { transform: translate(45.836258px,442.695183px)  }
+     100% { transform: translate(45.836258px,442.695183px)  }
+}
+#copy-of-25_ts {
+    animation: copy-of-25_ts__ts 27000ms linear infinite normal forwards
+}
+@keyframes copy-of-25_ts__ts {
+     0% { transform: scale(1,1)  }
+     24% { transform: scale(1,1)  }
+     27% { transform: scale(1.5,1.5)  }
+     29% { transform: scale(1,1)  }
+     100% { transform: scale(1,1)  }
+}
+#copy-of-25 {
+    animation: copy-of-25__fl 27000ms linear infinite normal forwards
+}
+@keyframes copy-of-25__fl {
+     0% { filter: invert(0%)  }
+     20% { filter: invert(0%)  }
+     23% { filter: invert(100%)  }
+     100% { filter: invert(100%)  }
+}
+#copy-of-75_to {
+    animation: copy-of-75_to__to 27000ms linear infinite normal forwards
+}
+@keyframes copy-of-75_to__to {
+     0% { transform: translate(462.592395px,221.368339px)  }
+     34% { transform: translate(462.592395px,221.368339px)  }
+     40% { transform: translate(463.034407px,221.281075px)  }
+     45% { transform: translate(98.273952px,441.132885px)  }
+     100% { transform: translate(98.273952px,441.132885px)  }
+}
+#copy-of-75 {
+    animation: copy-of-75__fl 27000ms linear infinite normal forwards
+}
+@keyframes copy-of-75__fl {
+     0% { filter: sepia(0%)  }
+     30.37037% { filter: sepia(0%)  }
+     34% { filter: sepia(100%)  }
+     100% { filter: sepia(100%)  }
+}
+#g1 {
+    animation: g1__fl 27000ms linear infinite normal forwards
+}
+@keyframes g1__fl {
+     0% { filter: grayscale(0%)  }
+     68% { filter: grayscale(0%)  }
+     71% { filter: grayscale(100%)  }
+     100% { filter: grayscale(100%)  }
+}
+#copy-of-15_to {
+    animation: copy-of-15_to__to 27000ms linear infinite normal forwards
+}
+@keyframes copy-of-15_to__to {
+     0% { transform: translate(219.399489px,305.04087px)  }
+     53% { transform: translate(223.702557px,301.825476px)  }
+     55% { transform: translate(52.847513px,330.480415px)  }
+     100% { transform: translate(52.847513px,330.480415px)  }
+}
+#copy-of-15_ts {
+    animation: copy-of-15_ts__ts 27000ms linear infinite normal forwards
+}
+@keyframes copy-of-15_ts__ts {
+     0% { transform: scale(1,1)  }
+     46% { transform: scale(1,1)  }
+     49% { transform: scale(1.5,1.5)  }
+     52% { transform: scale(1,1)  }
+     100% { transform: scale(1,1)  }
+}
+#35 {
+    animation: 35__fl 27000ms linear infinite normal forwards
+}
+@keyframes 35__fl {
+     0% { filter: hue-rotate(0deg)  }
+     74% { filter: hue-rotate(0deg)  }
+     77% { filter: hue-rotate(-229deg)  }
+     81% { filter: hue-rotate(0deg)  }
+     85% { filter: hue-rotate(235deg)  }
+     100% { filter: hue-rotate(235deg)  }
+}
+#copy-of-35_to {
+    animation: copy-of-35_to__to 27000ms linear infinite normal forwards
+}
+@keyframes copy-of-35_to__to {
+     0% { transform: translate(334.847352px,301.987323px)  }
+     57% { transform: translate(335.258672px,304.158935px)  }
+     61% { transform: translate(52.847503px,278.042714px)  }
+     100% { transform: translate(52.847503px,278.042714px)  }
+}
+#copy-of-90_to {
+    animation: copy-of-90_to__to 27000ms linear infinite normal forwards
+}
+@keyframes copy-of-90_to__to {
+     0% { transform: translate(526.607303px,303.590501px)  }
+     62% { transform: translate(525.113365px,303.668433px)  }
+     66% { transform: translate(52.847523px,225.605013px)  }
+     100% { transform: translate(52.847523px,225.605013px)  }
+}
+#copy-of-60_tk {
+    animation: copy-of-60_tk__tk 27000ms linear infinite normal forwards
+}
+@keyframes copy-of-60_tk__tk {
+     0% { transform: translate(394.986795px,302.140132px) skewX(0deg) skewY(0deg)  }
+     87% { transform: translate(394.986795px,302.140132px) skewX(0deg) skewY(0deg)  }
+     92% { transform: translate(394.986795px,302.140132px) skewX(48deg) skewY(50deg)  }
+     100% { transform: translate(394.986795px,302.140132px) skewX(48deg) skewY(50deg)  }
+}
+#copy-of-60 {
+    animation: copy-of-60_c_o 27000ms linear infinite normal forwards
+}
+@keyframes copy-of-60_c_o {
+     0% { opacity: 1  }
+     93% { opacity: 1  }
+     97% { opacity: 0  }
+     100% { opacity: 0  }
+}
+
+    ]]></style>
+    <text id="bullet1" dx="50%" dy="40" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400"
+          text-anchor="middle" stroke-width="0">
+        <tspan id="tspan1" y="0" font-weight="400" stroke-width="0">Start at root and navigate left sub-tree till a leaf</tspan>
+    </text>
+    <text id="bullet2" dx="50%" dy="40" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400"
+          text-anchor="middle" stroke-width="0">
+        <tspan id="tspan1" y="0" font-weight="400" stroke-width="0">Keep adding each node to the stack</tspan>
+    </text>
+    <rect id="rect1" width="66.460193" height="495.326503" rx="0" ry="0" transform="matrix(9.068793 0 0-.109019 19.617416 468.914034)" fill="#94e4a4" stroke-width="0"/>
+    <rect id="rect2" width="66.460193" height="438.816773" rx="0" ry="0" transform="matrix(1 0 0 0.629206 19.617416 76.959658)" fill="#85a6e7" stroke-width="0"/>
+    <line id="line1" x1="-41.386786" y1="-41.153849" x2="41.386786" y2="41.153849" transform="matrix(.385002 0.048291-.040059 0.319369 299.786357 262.52219)" opacity="0.34" fill="none" stroke="#3f5787" stroke-width="3"/>
+    <line id="line2" x1="38.353192" y1="-41.153849" x2="-38.353192" y2="41.153849" transform="matrix(.351852-.037816 0.038781 0.360828 247.214313 262.522191)" opacity="0.34" fill="none" stroke="#3f5787" stroke-width="3"/>
+    <g id="g50" transform="translate(63.1569 90.028145)">
+        <ellipse id="e50" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)" fill="#d2dbed" stroke-width="1" stroke="black" />
+        <text id="t50" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400"
+              transform="translate(284.276815 59.534129)" stroke-width="0">
+            <tspan id="tspan1" y="0" font-weight="400" stroke-width="0"><![CDATA[50]]></tspan>
+        </text>
+    </g>
+    <g id="copy-of-50_to" transform="translate(364.072299,138.160435)">
+        <g id="copy-of-50_ts" transform="scale(1,1)">
+            <g id="copy-of-50" transform="translate(-300,-49.999998)">
+                <ellipse id="ellipse2" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)" fill="#d2dbed" stroke-width="1" stroke="black" />
+                <text id="text2" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400" transform="translate(284.276815 59.534129)" stroke-width="0">
+                    <tspan id="tspan2" y="0" font-weight="400" stroke-width="0"><![CDATA[50]]></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+    <g id="25" transform="translate(-26.432495 171.368338)">
+        <ellipse id="ellipse3" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)" fill="#d2dbed" stroke-width="1" stroke="black" />
+        <text id="text3" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400" transform="translate(284.276815 59.534129)" stroke-width="0">
+            <tspan id="tspan3" y="0" font-weight="400" stroke-width="0"><![CDATA[25]]></tspan>
+        </text>
+    </g>
+    <g id="copy-of-25_to" transform="translate(274.018122,222.90425)">
+        <g id="copy-of-25_ts" transform="scale(1,1)">
+            <g id="copy-of-25" style="filter:invert(0%)" transform="translate(-300,-49.999998)">
+                <ellipse id="ellipse4" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)" fill="#d2dbed" stroke-width="1" stroke="black" />
+                <text id="text4" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400" transform="translate(284.276815 59.534129)" stroke-width="0">
+                    <tspan id="tspan4" y="0" font-weight="400" stroke-width="0"><![CDATA[25]]></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+    <g id="75" transform="translate(162.592405 171.368338)">
+        <ellipse id="ellipse5" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)" fill="#d2dbed" stroke-width="1" stroke="black"/>
+        <text id="text5" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400" transform="translate(284.276815 59.534129)" stroke-width="0">
+            <tspan id="tspan5" y="0" font-weight="400" stroke-width="0"><![CDATA[75]]></tspan>
+        </text>
+    </g>
+    <g id="copy-of-75_to" transform="translate(462.592395,221.368339)">
+        <g id="copy-of-75" style="filter:sepia(0%)" transform="translate(-300,-49.999998)">
+            <ellipse id="ellipse6" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)" fill="#d2dbed" stroke-width="1" stroke="black" />
+            <text id="text6" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400" transform="translate(284.276815 59.534129)" stroke-width="0">
+                <tspan id="tspan6" y="0" font-weight="400" stroke-width="0"><![CDATA[75]]></tspan>
+            </text>
+        </g>
+    </g>
+    <g id="g1" style="filter:grayscale(0%)" transform="translate(-80.600521 255.040875)">
+        <ellipse id="ellipse7" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)" fill="#d2dbed" stroke-width="1" stroke="black" />
+        <text id="text7" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400" transform="translate(284.276815 59.534129)" stroke-width="0">
+            <tspan id="tspan7" y="0" font-weight="400" stroke-width="0"><![CDATA[15]]></tspan>
+        </text>
+    </g>
+    <g id="copy-of-15_to" transform="translate(219.399489,305.04087)">
+        <g id="copy-of-15_ts" transform="scale(1,1)">
+            <g id="copy-of-15" transform="translate(-300,-49.999998)">
+                <ellipse id="ellipse8" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)" fill="#d2dbed" stroke-width="1" stroke="black" />
+                <text id="text8" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400" transform="translate(284.276815 59.534129)" stroke-width="0">
+                    <tspan id="tspan8" y="0" font-weight="400" stroke-width="0"><![CDATA[15]]></tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+    <g id="35" style="filter:hue-rotate(0deg)" transform="translate(34.847362 253.242671)">
+        <ellipse id="ellipse9" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)" fill="#d2dbed" stroke-width="1" stroke="black" />
+        <text id="text9" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400" transform="translate(284.276815 59.534129)" stroke-width="0">
+            <tspan id="tspan9" y="0" font-weight="400" stroke-width="0"><![CDATA[35]]></tspan>
+        </text>
+    </g>
+    <g id="copy-of-35_to" transform="translate(334.847352,301.987323)">
+        <g id="copy-of-35" transform="translate(-300,-49.999998)">
+            <ellipse id="ellipse10" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)" fill="#d2dbed" stroke-width="1" stroke="black" />
+            <text id="text10" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400" transform="translate(284.276815 59.534129)" stroke-width="0">
+                <tspan id="tspan10" y="0" font-weight="400" stroke-width="0"><![CDATA[35]]></tspan>
+            </text>
+        </g>
+    </g>
+    <g id="90" transform="translate(226.607293 253.242671)">
+        <ellipse id="ellipse11" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)" fill="#d2dbed" stroke-width="1" stroke="black" />
+        <text id="text11" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400" transform="translate(284.276815 59.534129)" stroke-width="0">
+            <tspan id="tspan11" y="0" font-weight="400" stroke-width="0"><![CDATA[90]]></tspan>
+        </text>
+    </g>
+    <g id="copy-of-90_to" transform="translate(526.607303,303.590501)">
+        <g id="copy-of-90" transform="translate(-300,-49.999998)">
+            <ellipse id="ellipse12" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)" fill="#d2dbed" stroke-width="1" stroke="black" />
+            <text id="text12" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400" transform="translate(284.276815 59.534129)" stroke-width="0">
+                <tspan id="tspan12" y="0" font-weight="400" stroke-width="0"><![CDATA[90]]></tspan>
+            </text>
+        </g>
+    </g>
+    <g id="60" transform="translate(94.986785 253.242671)">
+        <ellipse id="ellipse13" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)" fill="#d2dbed" stroke-width="1" stroke="black" />
+        <text id="text13" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400" transform="translate(284.276815 59.534129)" stroke-width="0">
+            <tspan id="tspan13" y="0" font-weight="400" stroke-width="0"><![CDATA[60]]></tspan>
+        </text>
+    </g>
+    <g id="copy-of-60_tk" transform="translate(394.986795,302.140132) skewX(0) skewY(0)">
+        <g id="copy-of-60" transform="translate(-300,-49.999998)">
+            <ellipse id="ellipse14" rx="21.668473" ry="21.668473" transform="matrix(1.21 0 0 1.21 300 50)" fill="#d2dbed" stroke-width="1" stroke="black" />
+            <text id="text14" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400" transform="translate(284.276815 59.534129)" stroke-width="0">
+                <tspan id="tspan14" y="0" font-weight="400" stroke-width="0"><![CDATA[60]]></tspan>
+            </text>
+        </g>
+    </g>
+    <line id="line3" x1="34.836421" y1="-32.792858" x2="-34.83642" y2="32.792859" transform="matrix(.397137 0.07377-.123956 0.667313 314.071782 177.399472)" opacity="0.35" fill="none" stroke="#3f5787" stroke-width="3"/>
+    <line id="line4" x1="47.221716" y1="29.732192" x2="-47.221716" y2="-29.732192" transform="matrix(.49089 0 0 0.735296 412.556426 179.224718)" opacity="0.35" fill="none" stroke="#3f5787" stroke-width="3"/>
+    <line id="line5" x1="23.374849" y1="-26.671525" x2="-23.374849" y2="26.671525" transform="matrix(.581051-.018173 0.017362 0.555147 426.601486 260.689892)" opacity="0.35" fill="none" stroke="#3f5787" stroke-width="3"/>
+    <line id="line6" x1="-25.797049" y1="-22.574264" x2="25.797049" y2="22.574264" transform="matrix(.576395 0 0 0.748381 498.260266 258.874323)" opacity="0.35" fill="none" stroke="#3f5787" stroke-width="3"/>
+    <text id="text15" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400" transform="matrix(.724586 0 0 0.717685 27.545125 375.410331)" stroke-width="0">
+        <tspan id="tspan15" y="0" font-weight="400" stroke-width="0"><![CDATA[Stack]]></tspan>
+    </text>
+    <text id="text16" dx="0" dy="0" font-family="&quot;in-order-traversal-algorithm-new:::Roboto&quot;" font-size="28" font-weight="400" transform="matrix(.724586 0 0 0.717685 22.369327 404.268047)" stroke-width="0">
+        <tspan id="tspan16" y="0" font-weight="400" stroke-width="0"><![CDATA[Output]]></tspan>
+    </text>
+    <style><![CDATA[@font-face {font-family: 'in-order-traversal-algorithm-new:::Roboto';font-style: normal;font-weight: 400;src: url(https://fonts.gstatic.com/l/font?kit=KFOmCnqEu92Fr1Me5X5fMwYPGfTEorEBKBrXailrFg&skey=a0a0114a1dcab3ac&v=v29) format('truetype');}]]></style>
+</svg>
