@@ -6,18 +6,14 @@ tags:
 author: Jyothi Prasad Buddha
 description: Shows a method of expiring items in browser localStorage
 thumbnail: 'https://live.staticflickr.com/65535/49959194511_65bced3703_z.jpg'
-lastmod: '2022-01-24T21:25:27.227Z'
+lastmod: '2022-01-31T10:35:53.207Z'
 ---
 All the modern browsers have multiple types of storage mechanisms for using in your web applications. You may have already heard of cookies which are small bits of information you can store and they will be automatically expired. However, cookies can only store small amounts of information. The other kind of storage is sessionStorage, where you can store big chunks of information. However all the data stored in this will be lost as soon as you close the browser tab.
 
 Local storage provides an intermediary option, it can store large amount of information and it will not be lost after the user closes the tab or browser. The data is persisted across sessions. However, we may want a better solution. We want to store large chunks of data across sessions, but we still want to have an option of invalidating after a certain period of time. Let us see how to go on about solving the problem.
 <!--more-->
 
-{{% flickr "Browser Storages"
-           "https://www.flickr.com/photos/140760885@N04/49959194511/in/dateposted/"
-           "https://live.staticflickr.com/65535/49959194511_65bced3703_z.jpg"
-           "640"
-           "549" %}}
+{{< figure src="https://live.staticflickr.com/65535/49959194511_65bced3703_z.jpg" caption="#### Browser Storages" >}}
 
 ## Solution
 The solution is to wrap localStorage API with a utility. Your application's logic for accessing should encapsulated in a single class. Using localStorage revolves around storing item with a key and fetching the item previously stored.
