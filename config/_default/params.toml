@@ -2,3 +2,8 @@ contentratio = 0.8
 readMore = true
 customCss = ["css/notices.css", 'css/tagcloud.css', 'css/highlight.css', 'css/search.css']
 enableMediumZoom = false
+
+title = "Basics & Beyond"
+author = "Buddha & Beesetty"
+description = "Intellisense Every Programmer Needs"
+profilePicture = "favicon.png"
