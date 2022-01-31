@@ -10,11 +10,10 @@ tags:
   - binary-tree
 author: Buddha
 description: Breadth first Traversal in a binary tree is a famous problem related to binary trees tree
-lastmod: '2022-01-31T09:58:51.490Z'
+lastmod: '2022-01-31T10:28:15.153Z'
 ---
 
-<img src="/images/svgs/2016/breadth-first-traversal-2.svg" alt="Breadth first/Level order traversal of a binary tree"/>
-<span class="caption">Breadth first/Level order traversal of a binary tree</span>
+{{< figure src="/images/svgs/2016/breadth-first-traversal-2.svg" caption="Breadth first/Level order traversal of a binary tree" >}}
 
 ## The Problem
 
