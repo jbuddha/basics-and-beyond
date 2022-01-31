@@ -1,12 +1,19 @@
 ---
 title: Breadth First Traversal In a Binary Tree Without Recursion
-date: 2016-05-17
-tags: ['java', 'algorithms', 'data-structures', 'problem', 'interview-question', 'binary-tree']
+date: 2016-05-17T00:00:00.000Z
+tags:
+  - java
+  - algorithms
+  - data-structures
+  - problem
+  - interview-question
+  - binary-tree
 author: Buddha
 description: Breadth first Traversal in a binary tree is a famous problem related to binary trees tree
+lastmod: '2022-01-31T09:58:51.490Z'
 ---
 
-<img src="/blog/assets/svgs/2016/breadth-first-traversal-2.svg" alt="Breadth first/Level order traversal of a binary tree"/>
+<img src="/images/svgs/2016/breadth-first-traversal-2.svg" alt="Breadth first/Level order traversal of a binary tree"/>
 <span class="caption">Breadth first/Level order traversal of a binary tree</span>
 
 ## The Problem

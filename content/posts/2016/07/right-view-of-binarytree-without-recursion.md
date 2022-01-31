@@ -1,22 +1,29 @@
 ---
 title: Right View of Binary Tree without Recursion
-date: 2016-07-22
-tags: ['java', 'algorithms', 'data-structures', 'problem', 'interview-question', 'binary-tree']
+date: 2016-07-22T00:00:00.000Z
+tags:
+    - java
+    - algorithms
+    - data-structures
+    - problem
+    - interview-question
+    - binary-tree
 author: Buddha
-description: This article shows you how to print right view of a binary tree, which using recursion.
+description: 'This article shows you how to print right view of a binary tree, which using recursion.'
+lastmod: '2022-01-31T09:58:31.615Z'
 ---
 
-<img src="/blog/assets/svgs/2016/right-view-of-binarytree.svg" alt="Right view of a binary tree"/>
+<img src="/images/svgs/2016/right-view-of-binarytree.svg" alt="Right view of a binary tree"/>
 
 Imagine you have a binary tree and wants to get all the nodes that will be visible when seen from the right side of the tree. How do you print all such nodes? Final output for this tree should be 44, 51, 65, 26. In other words, the first nodes we touch upon if we draw horizontal lines from right side of the tree. Read on to find the solution.
 
- <!-- more -->
+ <!--more-->
 
 ## The Solution
 
 Quicktip, whenever we try to do something without using recursion, you need to use some auxiliary datastructure like Queue or Stack. To solve this problem, we use a queue.
 
-To solve this problem, we use a mechanism similar to {% post_link 2016/05/non-recursive-breadth-first-traversal-binary-tree Breadth First Traversal %}.
+To solve this problem, we use a mechanism similar to {% post_link posts/2016/05/non-recursive-breadth-first-traversal-binary-tree Breadth First Traversal %}.
 
 We start with pushing the root node and a null node into queue, to indicate first level is complete. We begin iterating until queue becomes empty. In every iteration, we dequeue a node, if it is not null node, we enqueue its children to the end of queue. We keep adding until children of all the nodes are added to queue.
 
