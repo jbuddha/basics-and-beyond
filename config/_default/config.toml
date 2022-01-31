@@ -1,6 +1,6 @@
-baseURL = 'https://control-space.netlify.app/'
+baseURL = 'https://basicsandbeyond.dev/'
 languageCode = 'en-us'
-title = 'Ctrl+Space - The Intellisense Every Programmer Needs'
+title = 'Basics and Beyond - The Intellisense Every Programmer Needs'
 theme = 'anatole'
 
 [markup.goldmark.renderer]
