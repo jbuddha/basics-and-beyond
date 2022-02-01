@@ -1,24 +1,23 @@
 ---
 title: How to use OpenCSV to write CSV files to S3
-date: 2021-01-24T00:00:00.000Z
+date: 2021-01-24T00:00:00.000+00:00
 tags:
-    - java
-    - s3
-    - aws
-    - opencsv
-    - data
-    - files
-    - example
+- java
+- s3
+- aws
+- opencsv
+- data
+- files
+- example
 author: Jyothi Prasad Buddha
-description: Gives an example of how to use opencsv in java to write csv files to S3
-lastmod: '2022-01-31T08:53:05.210Z'
----
+description: Gives an example of how to use opencsv in java to write csv files to
+  S3
+lastmod: 2022-01-31T08:53:05.210Z
 
+---
 In the previous post about [How to read csv files from S3 using OpenCSV](/posts/2021/01/reading-csv-files-from-s3-using-opencsv/), we have seen how to open and files on S3 and read the comma separated data into list of hashmaps. In this article, we will see how to perform the reverse, writing data to the files.
 
-Most of the fundamental concepts do not change. You need to create S3 client if you want to do anything with S3. The AWS profile configured should be of the user or role that has permissions to write to S3. The bucket policy should allow writing files. I'm not going to cover how to setup aws credentials and IAM policies in this post. The method getS3() in the complete code snippet below is going to return an S3 client just like in the previous post.
-<!--more-->
-In order for us to write CSV files using OpenCSV, you need to create a `CSVWriter` object. It allows us to write text to a stream and redirect them to a csv file. Here is how you can create a writer.
+Most of the fundamental concepts do not change. You need to create S3 client if you want to do anything with S3. The AWS profile configured should be of the user or role that has permissions to write to S3. The bucket policy should allow writing files. I'm not going to cover how to setup aws credentials and IAM policies in this post. The method getS3() in the complete code snippet below is going to return an S3 client same as the previous post. <!--more--> In order for us to write CSV files using OpenCSV, you need to create a `CSVWriter` object. It allows us to write text to a stream and redirect them to a csv file. Here is how you can create a writer.
 
 ```java
 private CSVWriter buildCSVWriter(OutputStreamWriter streamWriter) {
@@ -127,4 +126,4 @@ Assuming that you are using Maven, you need to add the following dependencies to
 
 For understanding how to import dependencies using other build systems, such as gradle go to the corresponding maven artifact pages such as https://mvnrepository.com/artifact/com.opencsv/opencsv and select appropriate tab.
 
----
+***
