@@ -2,20 +2,20 @@
 title: Top View of Binary Tree without Recursion
 date: 2016-07-23T00:00:00.000Z
 tags:
-  - java
-  - algorithms
-  - data-structures
-  - problem
-  - interview-question
-  - binary-tree
+    - java
+    - algorithms
+    - data-structures
+    - problem
+    - interview-question
+    - binary-tree
 author: Buddha
 description: 'This article shows you how to print top view of a binary tree, which using recursion.'
-lastmod: '2022-01-31T09:59:21.727Z'
+lastmod: '2022-02-04T08:58:22.318Z'
 ---
 
 <img src="/images/svgs/2016/top-view-of-binarytree.svg" alt="Top view of a binary tree"/>
 
-If you have a binary tree and wants to get all the nodes that will be visible when seen from the top of the tree, how do you print all such nodes? Final output for this tree should be 7, 13, 23, 44, 51, 65. A similar problem about printing right view is given in the previous post about {% post_link posts/2016/07/right-view-of-binarytree-without-recursion Right View of Binary Tree without Recursion %}
+If you have a binary tree and wants to get all the nodes that will be visible when seen from the top of the tree, how do you print all such nodes? Final output for this tree should be 7, 13, 23, 44, 51, 65. A similar problem about printing right view is given in the previous post about [Right View of Binary Tree without Recursion ]({{< ref "posts/2016/07/right-view-of-binarytree-without-recursion" >}})
 
 <!--more-->
 
@@ -27,7 +27,11 @@ We keep pushing left node onto stack until we reach a leaf node while visiting o
 
 Right subtree is much simpler solution, as we have to print the right most nodes in the order we visit them. Begin with root and move to its right node, print the node and continue to its right node. Proceed till the right child becomes null. Find the program below written in java.
 
-{% codeblock Program to print top view of a Binary Tree lang:java %}
+
+```java {title=true}
+Program to print top view of a Binary Tree
+```
+```java {linenos=true}
 public void topView(Node root) {
     Node temp = root.left;
     Stack<Node> stack = new Stack<>();
@@ -46,7 +50,8 @@ public void topView(Node root) {
         temp = temp.right;
     }
 }
-{% endcodeblock %}
+```
+
 
 What do you think of this solution? Can you think of a simpler solution? Let me know in the comments.
 

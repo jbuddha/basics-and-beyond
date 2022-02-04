@@ -10,10 +10,10 @@ tags:
     - binary-tree
 author: Buddha
 description: 'This article shows you how to print right view of a binary tree, which using recursion.'
-lastmod: '2022-01-31T10:27:51.609Z'
+lastmod: '2022-02-04T08:56:45.422Z'
 ---
 
-{{< figure src="/images/svgs/2016/right-view-of-binarytree.svg" caption="Right view of a binary tree" >}}
+{{< figure src="/images/svgs/2016/right-view-of-binarytree.svg" caption="#### Right view of a binary tree" >}}
 
 Imagine you have a binary tree and wants to get all the nodes that will be visible when seen from the right side of the tree. How do you print all such nodes? Final output for this tree should be 44, 51, 65, 26. In other words, the first nodes we touch upon if we draw horizontal lines from right side of the tree. Read on to find the solution.
 
@@ -23,13 +23,18 @@ Imagine you have a binary tree and wants to get all the nodes that will be visib
 
 Quicktip, whenever we try to do something without using recursion, you need to use some auxiliary datastructure like Queue or Stack. To solve this problem, we use a queue.
 
-To solve this problem, we use a mechanism similar to {% post_link posts/2016/05/non-recursive-breadth-first-traversal-binary-tree Breadth First Traversal %}.
+To solve this problem, we use a mechanism similar to [Breadth First Traversal]({{< ref "posts/2016/05/non-recursive-breadth-first-traversal-binary-tree" >}})
 
 We start with pushing the root node and a null node into queue, to indicate first level is complete. We begin iterating until queue becomes empty. In every iteration, we dequeue a node, if it is not null node, we enqueue its children to the end of queue. We keep adding until children of all the nodes are added to queue.
 
 If we encounter a null node, it means we reached end of the current level. We need to print the node dequeued before this node. To acheive this, we keep checking if next node in the queue is a null node by using `peek` method. As soon as the peek method returns null, it means this is the last node in the current level, we have to print it. If we get a null node, we have to check if there are more nodes to be dequeued, if there are no more nodes, we have reached end of the binary tree, otherwise, we just reached end of current level and more nodes are present in the queue. Find the program below written in java.
 
-{% codeblock Program to print Right View of A Binary Tree lang:java %}
+
+
+```java {title=true}
+Program to print Right View of A Binary Tree
+```
+```java {linenos=true}
 public void rightView(Node root) {
     Queue<Node> queue = new Queue<>();
     if(root != null) {
@@ -53,7 +58,7 @@ public void rightView(Node root) {
             queue.enqueue(temp.right);
     }
 }
-{% endcodeblock %}
+```
 
 What do you think of this solution? Can you think of a simpler solution? Let me know in the comments.
 
