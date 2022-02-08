@@ -1,9 +1,10 @@
 contentratio = 0.8
 readMore = true
 customCss = ["css/notices.css", 'css/tagcloud.css', 'css/highlight.css', 'css/search.css']
+customJs = ["https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"]
 enableMediumZoom = false
 
 title = "Basics & Beyond"
-author = "Buddha & Beesetty"
+author = "Basics & Beyond"
 description = "Intellisense Every Programmer Needs"
 profilePicture = "favicon.png"
