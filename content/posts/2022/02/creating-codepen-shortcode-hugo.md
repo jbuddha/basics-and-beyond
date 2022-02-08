@@ -1,10 +1,10 @@
 ---
 title: Creating a CodePen shortcode for Hugo
-slug: /creating-codepen-shortcode/
+slug: creating-codepen-shortcode-hugo
 description: null
 author: Buddha
 date: '2022-02-02T05:31:36.893Z'
-lastmod: '2022-02-02T06:13:33.378Z'
+lastmod: '2022-02-08T06:43:15.807Z'
 draft: true
 tags: []
 categories: []
