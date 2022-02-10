@@ -41,3 +41,8 @@ Print all divisors
 ```
 
 */
+
+/* Inline code that has been highlighted with a single backtick */
+p > code:not([class]) {
+    background-color:#d5dfe7;
+}
