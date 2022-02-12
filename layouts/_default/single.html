@@ -39,13 +39,6 @@
 
       {{- partial "expirationnote.html" . -}}
 
-      {{- if (eq .Params.toc true) -}}
-        <h3>Table of Contents</h3>
-        {{ .TableOfContents }}
-
-
-      {{- end -}}
-
       {{ .Content }}
 
       {{- if isset .Params "series" -}}

@@ -1,7 +1,6 @@
 contentratio = 0.8
 readMore = true
-customCss = ["css/notices.css", 'css/tagcloud.css', 'css/highlight.css', 'css/search.css']
-customJs = ["https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"]
+customCss = ['css/notices.css', 'css/tagcloud.css', 'css/highlight.css', 'css/search.css', 'css/commons.css']
 enableMediumZoom = false
 
 title = "Basics & Beyond"

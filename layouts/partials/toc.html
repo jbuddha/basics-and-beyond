@@ -1,0 +1,21 @@
+<div 
+   
+    class="sidebar{{ with .Site.Params.doNotLoadAnimations }}
+        .
+
+    {{ else }}
+        animated fadeInDown
+
+    {{ end }}"
+>
+
+    <div class="sidebar__content sidebar__toc">
+        {{ if (eq .Page.Params.toc true) }}
+            <h2>Table Of Contents</h2>
+            <hr />
+            {{ .Page.TableOfContents }}
+        {{ end }}
+    </div>
+
+    {{- partial "footer.html" (dict "context" . "footerClassModifier" "sidebar") -}}
+</div>

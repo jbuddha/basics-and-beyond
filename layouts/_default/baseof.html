@@ -9,7 +9,11 @@
     <header>{{ partial "navbar.html" . }}</header>
     <div class="wrapper">
       <aside>
-        {{- partial "sidebar.html" . -}}
+        {{ if (eq .Params.toc true) }}
+          {{- partial "toc.html" . -}}
+        {{ else }}
+          {{- partial "sidebar.html" . -}}
+        {{ end }}
       </aside>
       <main>
         <div class="autopagerize_page_element">
