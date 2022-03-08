@@ -16,10 +16,12 @@ fields:
   label: lastmod
 - name: author
   type: select
-  default: []
+  default: Buddha
   config:
-    required: false
-    options: []
+    required: true
+    options:
+    - Buddha
+    - Reshma
     source:
       type: simple
       section: 
