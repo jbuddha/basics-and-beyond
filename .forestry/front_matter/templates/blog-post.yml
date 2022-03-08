@@ -14,3 +14,19 @@ fields:
 - type: datetime
   name: lastmod
   label: lastmod
+- name: author
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: author
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
