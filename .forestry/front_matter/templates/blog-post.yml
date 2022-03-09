@@ -32,3 +32,5 @@ fields:
   type: tag_list
   default: []
   label: tags
+pages:
+- content/posts/2022/03/aws-lambda-for-a-node-js-developer.md
