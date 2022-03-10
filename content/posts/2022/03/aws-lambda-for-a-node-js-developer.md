@@ -1,8 +1,8 @@
 +++
 author = "Reshma"
-date = ""
+date = 2022-03-09T08:00:00Z
 draft = true
-lastmod = ""
+lastmod = 2022-03-09T08:00:00Z
 slug = ""
 tags = []
 title = "AWS Lambda for a Node JS Developer"
