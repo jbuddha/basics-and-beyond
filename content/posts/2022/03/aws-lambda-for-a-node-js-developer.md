@@ -30,8 +30,6 @@ npm install -save-dev express body-parser
 The installation is going to be pretty quick and once it's done let’s create an empty file and call it add-api.js by using this command.
 
     touch add-api.js
-    touch add-api.js
-
 
 We’re going to be writing the server code for our restAPI in this folder. Let’s import them first with require and create an express object and call it app. Let’s also set JSON as its body parser. Next, we’ll create a constant port with a value 8081 which we’ll use to run our server later.
 
