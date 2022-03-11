@@ -44,7 +44,14 @@ const PORT = 8081;
 
 We can now define the routing method [app.post](http://app.post) to handle all the post calls. Now, all we need to do is define a callback or a handler function inside this routing method that gets invoked when a client makes a post-call.
 
-app.post('/', (request, response) => { let input = request.body; let total = 0; if (input.num1 && input.num2) total = parseFloat(input.num1) + parseFloat(input.num2); response.json({sum: total}); });
+```js
+app.post('/', (request, response) => 
+         { let input = request.body; 
+          let total = 0; 
+          if (input.num1 && input.num2) 
+            total = parseFloat(input.num1) + parseFloat(input.num2); 				response.json({sum: total}); 
+         });
+```
 
 In the handler function above, we first read the input JSON from the request parameter’s body. We have to return a total, we instantiated a variable with 0. Then, we read the parameters num1 and num2 of the input JSON.
 
