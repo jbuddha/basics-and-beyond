@@ -59,7 +59,10 @@ In the handler function above, we first read the input JSON from the request par
 
 However, we are not done yet. We still have to ask NodeJS to listen to port 8081. This can be achieved by invoking app.listen method and passing the port number as the argument. While we are at it, let us add a log statement to let the user know that the server is ready.
 
-app.listen(PORT); console.log(`Listening on <http://localhost>:${PORT}`);
+```js
+app.listen(PORT); 
+console.log(`Listening on <http://localhost>:${PORT}`);
+```
 
 This completes our first task. We have successfully created an API that adds two numbers and returns their sum. Now, let’s move on to our next task at hand.
 
