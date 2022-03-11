@@ -49,13 +49,14 @@ app.post('/', (request, response) =>
          { let input = request.body; 
           let total = 0; 
           if (input.num1 && input.num2) 
-            total = parseFloat(input.num1) + parseFloat(input.num2); 				response.json({sum: total}); 
+            total = parseFloat(input.num1) + parseFloat(input.num2); 				
+            response.json({sum: total}); 
          });
 ```
 
 In the handler function above, we first read the input JSON from the request parameter’s body. We have to return a total, we instantiated a variable with 0. Then, we read the parameters num1 and num2 of the input JSON.
 
- In the If statement, we converted each of them to a number using the parse float method and added them to set the value of the total variable. Once the total is calculated, we returned it as a JSON using the response.json method. We set the key as a sum and assigned total to it to satisfy the requirements we have set for ourselves.
+In the If statement, we converted each of them to a number using the parse float method and added them to set the value of the total variable. Once the total is calculated, we returned it as a JSON using the response.json method. We set the key as a sum and assigned total to it to satisfy the requirements we have set for ourselves.
 
 However, we are not done yet. We still have to ask NodeJS to listen to port 8081. This can be achieved by invoking app.listen method and passing the port number as the argument. While we are at it, let us add a log statement to let the user know that the server is ready.
 
