@@ -91,3 +91,12 @@ So, whenever Thunderclient has to send a JSON request, it sends the request to t
 As more and more clients try to access our server, we have no choice but to keep increasing its size but there comes a point where there are just too many requests, and our server now just burns and crashes. We do not want that.
 
 Here’s where AWS Lambda comes into play. Being an efficient server-less computing platform, it takes away our burden to maintain the servers ourselves by managing all the requests coming via lambda functions. To take a practical look at its functionality, let’s create and execute the same node.js function using AWS Lamda.
+
+* Log into AWS Console and open AWS Lambda using the search bar.
+* Click on Create Function. Select ‘Create Function from Scratch’ as we’re going to be creating a brand new function without using any pre-existing blueprints.
+* Give the function a relevant name, ‘add’ in our case. Make sure the runtime, our preferred programming language, is selected to Node.js. Click on Create Function.
+* Open the index.js file in our code window by double-clicking on it. If you recall what we did in our node.js function, we implemented a post handler. We’re going to do the same here.
+* Create a variable total and initialize it with 0. Same as we’ve done before if both the inputs exist we just have to set sum of our variable num1 and num2 after passing them. Let’s construct a JSON response and stringify it to attach it to the body attribute.
+* After any changes we make to our function, we have to click on Deploy to actually deploy those changes. 
+* Click on the Test button and configure a Test event where we can provide test inputs. Make relevant changes to Event Template and Event name fields. Change the inputs, as shown in the picture below, and click on Create to finish creating our test event. 
+* Finally, we get the desired result, that is the sum of the two numbers that we passed in our test event input.
