@@ -100,3 +100,9 @@ Here’s where AWS Lambda comes into play. Being an efficient server-less comput
 * After any changes we make to our function, we have to click on Deploy to actually deploy those changes. 
 * Click on the Test button and configure a Test event where we can provide test inputs. Make relevant changes to Event Template and Event name fields. Change the inputs, as shown in the picture below, and click on Create to finish creating our test event. 
 * Finally, we get the desired result, that is the sum of the two numbers that we passed in our test event input.
+
+But here’s the deal, how do we trigger this API from our ThunderClient? We’re going to use AWS’s APIGateway service for this. API gateway is going to be acting as an interface for this lambda and for any client who’s trying to invoke this lambda. And it’s going to allow to create rest APIs on top of this lambda function. So whenever that rest API is invoked, our Lambda function is going to be invoked.
+
+To facilitate this invocation, we first need to add a trigger by clicking on the Add Trigger button.
+
+Click on Create New API 
