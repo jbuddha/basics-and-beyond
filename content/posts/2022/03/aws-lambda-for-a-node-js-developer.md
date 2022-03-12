@@ -45,6 +45,7 @@ const PORT = 8081;
 We can now define the routing method [app.post](http://app.post) to handle all the post calls. Now, all we need to do is define a callback or a handler function inside this routing method that gets invoked when a client makes a post-call.
 
 ```js
+
 app.post('/', (request, response) => 
          { let input = request.body; 
           let total = 0; 
@@ -83,8 +84,10 @@ Let’s recap what we have done with our NodeJS implementation. We have created 
 
 Let’s take a step back and understand what’s going on here. We have a server which is running on a computer. In the same computer, we have a client, which is Thunderclient in our example, which is accessing our REST API running on the same server, hence [localhost](http://localhost), and it just knows that it needs to hit the port 8081.
 
-But what if this is not what we want? What if the configuration that we want is somewhat like this: The server or REST API is in a different computer and the client which is trying to access that particular API is in a different computer. Now, the localhost 8081 no longer works because, for Thunderclient, localhost means the computer in which the Thunderclient is running. We can fix this issue with some domain magic and change the localhost:8081 to something like [www.basicsandbeyond.dev](http://www.basicsandbeyond.dev) and allow the users to access it from the internet.
+But think of a scenario when the server or REST API is in a different computer and the client which is trying to access that particular API is in a different computer. Now, the localhost 8081 is no longer works because, for Thunderclient, the local host means the computer in which the Thunderclient is running. We can fix this issue with some domain magic and change the localhost:8081 to something like [www.basicsandbeyond.dev](http://www.basicsandbeyond.dev/) and allow the users to access it from the internet.
 
-So, whenever Thunderclient has to send a JSON request, it sends the request to the ISP, from where it travels through all the internet to reach the host and invoke the API. The response follows the same route. This system works perfectly if the two computers, the server, and the client, are close by. For example, if the server is in Seattle and the client is maybe in, say, Atlanta. The setup also works perfectly fine if the user is trying to access the server from a completely different point like a mobile phone, even if the mobile phone is in a different part of the world.
+So, whenever Thunderclient has to send a JSON request, it sends the request to the ISP, from where it travels through all the internet to reach the host and invoke the API. The response follows the same route. This system works perfectly if the two computers, the server, and the client, are close by. For example, if the server is in Seattle and the client may be in, say, Atlanta. The setup also works perfectly fine if the user is trying to access the server from a completely different point like a mobile phone, even if the mobile phone is in a different part of the world.
 
-As more and more clients try to access our server, we have no choice but to keep increasing its size but there comes a point where there are just too many requests, and our server now just burns and crashes. We do not want that. Here’s where AWS Lambda comes into play. Being an efficient server-less computing platform, it takes away our burden to maintain the servers ourselves by managing all the requests coming via lambda functions. To take a practical look at its functionality, let’s create and execute the same node.js function using AWS Lamda.
+As more and more clients try to access our server, we have no choice but to keep increasing its size but there comes a point where there are just too many requests, and our server now just burns and crashes. We do not want that.
+
+Here’s where AWS Lambda comes into play. Being an efficient server-less computing platform, it takes away our burden to maintain the servers ourselves by managing all the requests coming via lambda functions. To take a practical look at its functionality, let’s create and execute the same node.js function using AWS Lamda.
