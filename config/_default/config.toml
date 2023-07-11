@@ -19,3 +19,8 @@ unsafe= true
   category = "categories"
   series = "series"
   tag = "tags"
+
+[[params.socialIcons]]
+  icon = "fab fa-linkedin"
+  title = "Linkedin"
+  url = "https://www.linkedin.com/in/reshma-b/"
