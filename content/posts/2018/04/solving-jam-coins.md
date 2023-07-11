@@ -1,6 +1,6 @@
 ---
 title: Generating the Jam Coins
-date: 2016-04-12T00:00:00.000Z
+date: 2018-04-12T00:00:00.000Z
 tags:
     - problem
     - codejam
@@ -8,7 +8,7 @@ tags:
     - puzzle
     - competition
     - solution
-author: Buddha
+author: Reshma Beesetty
 description: I'm going to show you how to solve JamCoins problem of 2016 Google codejam for both small as well as large datasets within time limit.
 sourcecode: 'https://github.com/jbuddha/competitions/blob/master/codejam/src/year2016/JamCoins.java'
 sourcetype: g

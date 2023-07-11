@@ -9,7 +9,7 @@ tags:
 - data
 - files
 - example
-author: Jyothi Prasad Buddha
+author: Reshma Beesetty
 description: Gives an example of how to use opencsv in java to write csv files to
   S3
 lastmod: 2022-01-31T08:53:05.210Z

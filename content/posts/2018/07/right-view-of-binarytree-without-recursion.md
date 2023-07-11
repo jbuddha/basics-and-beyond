@@ -1,6 +1,6 @@
 ---
 title: Right View of Binary Tree without Recursion
-date: 2016-07-22T00:00:00.000Z
+date: 2018-07-22T00:00:00.000Z
 tags:
     - java
     - algorithms
@@ -8,7 +8,7 @@ tags:
     - problem
     - interview-question
     - binary-tree
-author: Buddha
+author: Reshma Beesetty
 description: 'This article shows you how to print right view of a binary tree, which using recursion.'
 lastmod: '2022-02-04T08:56:45.422Z'
 ---
@@ -23,7 +23,7 @@ Imagine you have a binary tree and wants to get all the nodes that will be visib
 
 Quicktip, whenever we try to do something without using recursion, you need to use some auxiliary datastructure like Queue or Stack. To solve this problem, we use a queue.
 
-To solve this problem, we use a mechanism similar to [Breadth First Traversal]({{< ref "posts/2016/05/non-recursive-breadth-first-traversal-binary-tree" >}})
+To solve this problem, we use a mechanism similar to [Breadth First Traversal]({{< ref "posts/2018/05/non-recursive-breadth-first-traversal-binary-tree" >}})
 
 We start with pushing the root node and a null node into queue, to indicate first level is complete. We begin iterating until queue becomes empty. In every iteration, we dequeue a node, if it is not null node, we enqueue its children to the end of queue. We keep adding until children of all the nodes are added to queue.
 

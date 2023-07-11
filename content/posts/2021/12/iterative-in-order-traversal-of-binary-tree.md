@@ -8,7 +8,7 @@ tags:
   - problem
   - interview-question
   - binary-tree
-author: Buddha
+author: Reshma Beesetty
 description: Algorithm and Solution for Iteratively traversing a binary tree in-order
 draft: true
 slug: order-traversal-binary-tree-recursion

@@ -1,6 +1,6 @@
 ---
 title: Collapsible panel using OJet & jQuery
-date: 2016-06-11T00:00:00.000Z
+date: 2018-06-11T00:00:00.000Z
 tags:
   - oraclejet
   - javascript

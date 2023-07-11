@@ -5,6 +5,7 @@ customJs = ["https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"]
 enableMediumZoom = false
 
 title = "Basics & Beyond"
-author = "Basics & Beyond"
+author = "Reshma Beesetty"
 description = "Intellisense Every Programmer Needs"
 profilePicture = "favicon.png"
+# profilePicture = 'images/reshma.jpeg'

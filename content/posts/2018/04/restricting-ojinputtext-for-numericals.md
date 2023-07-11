@@ -1,6 +1,6 @@
 ---
 title: Restricting an ojInputText to accept only numbers
-date: 2016-04-22T00:00:00.000Z
+date: 2018-04-22T00:00:00.000Z
 tags:
     - oraclejet
     - javascript

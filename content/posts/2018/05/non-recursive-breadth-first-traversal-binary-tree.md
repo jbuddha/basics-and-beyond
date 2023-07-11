@@ -1,6 +1,6 @@
 ---
 title: Breadth First Traversal In a Binary Tree Without Recursion
-date: 2016-05-17T00:00:00.000Z
+date: 2018-05-17T00:00:00.000Z
 tags:
   - java
   - algorithms
@@ -8,7 +8,7 @@ tags:
   - problem
   - interview-question
   - binary-tree
-author: Buddha
+author: Reshma Beesetty
 thumbnail: /images/svgs/2016/breadth-first-traversal-2.svg
 description: Breadth first Traversal in a binary tree is a famous problem related to binary trees tree
 lastmod: '2022-02-02T19:19:32.895Z'

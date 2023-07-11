@@ -9,7 +9,7 @@ tags:
     - data
     - files
     - example
-author: Jyothi Prasad Buddha
+author: Reshma Beesetty
 thumbnail: /images/svgs/2021/01/read-s3-files-using-opencsv-algorithm.svg
 description: Gives an example of how to use opencsv in java to read csv files as list of hash maps from S3
 lastmod: '2022-01-31T09:05:49.675Z'

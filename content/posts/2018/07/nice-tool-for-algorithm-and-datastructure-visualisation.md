@@ -1,8 +1,8 @@
 ---
 title: A Great Tool for Datastructure Algorithm Visualisation
-date: 2016-07-22
+date: 2018-07-22
 tags: ['information', 'data-structures']
-author: Buddha
+author: Reshma Beesetty
 description: This is a short introductory post to let you guys know about an excellent tool for datastructures and algorithms visualisation recently.
 ---
 

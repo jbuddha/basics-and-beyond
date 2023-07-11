@@ -32,6 +32,7 @@
             >
             <em class="fas fa-stopwatch"></em>
             <span class="reading-time">{{ i18n "reading_time" .ReadingTime }}</span>
+            
           </div>
 
         {{ end }}
@@ -73,6 +74,7 @@
 
 
         {{ end }}
+        <span>📝 {{ .Params.author }}</span>
       </div>
     </div>
 

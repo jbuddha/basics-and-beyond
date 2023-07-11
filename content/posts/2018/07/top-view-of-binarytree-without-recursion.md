@@ -1,6 +1,6 @@
 ---
 title: Top View of Binary Tree without Recursion
-date: 2016-07-23T00:00:00.000Z
+date: 2018-07-23T00:00:00.000Z
 tags:
     - java
     - algorithms
@@ -8,14 +8,14 @@ tags:
     - problem
     - interview-question
     - binary-tree
-author: Buddha
+author: Reshma Beesetty
 description: 'This article shows you how to print top view of a binary tree, which using recursion.'
 lastmod: '2022-02-04T08:58:22.318Z'
 ---
 
 <img src="/images/svgs/2016/top-view-of-binarytree.svg" alt="Top view of a binary tree"/>
 
-If you have a binary tree and wants to get all the nodes that will be visible when seen from the top of the tree, how do you print all such nodes? Final output for this tree should be 7, 13, 23, 44, 51, 65. A similar problem about printing right view is given in the previous post about [Right View of Binary Tree without Recursion ]({{< ref "posts/2016/07/right-view-of-binarytree-without-recursion" >}})
+If you have a binary tree and wants to get all the nodes that will be visible when seen from the top of the tree, how do you print all such nodes? Final output for this tree should be 7, 13, 23, 44, 51, 65. A similar problem about printing right view is given in the previous post about [Right View of Binary Tree without Recursion ]({{< ref "posts/2018/07/right-view-of-binarytree-without-recursion" >}})
 
 <!--more-->
 
