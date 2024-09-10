@@ -8,5 +8,5 @@ This is the source for https://www.basicsandbeyond.dev
 
 ### Local Development
 1. Clone this repository to local `git clone https://github.com/jbuddha/basics-and-beyond.git`
-2. Pull theme submodules by running command `git submodule update --init --recursive`
-3. Run local server with command `hugo server`
+1. Pull theme submodules by running command `git submodule update --init --recursive`
+1. Run local server with command `hugo server`
